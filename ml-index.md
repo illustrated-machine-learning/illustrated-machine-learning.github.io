@@ -47,18 +47,18 @@
 
 
 ## Unsupervised Learning
-- [] Clustering
-  - Centroid based algos - KMeans
-  - Connectivity - Hierachical clusteing
-  - Density models - DBScan
-- Gaussian Mixture Models
-- LSA
-- Hidden Markov Models
-- Dimensionality Reduction
-  - PCA
-  - ICA
-  - LDA
-  - tSNE
+- [ ] Clustering
+  - [ ] Centroid based algos - KMeans
+  - [ ] Connectivity - Hierachical clusteing
+  - [ ] Density models - DBScan
+- [ ] Gaussian Mixture Models
+- [ ] LSA
+- [ ] Hidden Markov Models
+- [ ] Dimensionality Reduction
+  - [ ] PCA
+  - [ ] ICA
+  - [ ] LDA
+  - [ ] tSNE
 
 
 ## Bias Variance
@@ -69,23 +69,26 @@
   - [ ] ..
 
 ## Sampling and Resampling
+
+> The third level doesn't work for checkboxes
+
 - [ ] Sampling
   - [ ] Uniform 
   - [ ] Reservoir
   - [ ] Stratified
-- [ ] Resampling
-  - [ ] Over
-    - [ ] Random
-    - [ ] SMOTE
-    - [ ] ...
+- [ ] Resmpling
+- [ ] Resampling / Over
+  - [ ] Random
+  - [ ] SMOTE
+  - [ ] ...
+- [ ] Resampling / Under
   - [ ] Under
-    - [ ] Random
-    - [ ] ...
-  - [ ] Under/Over
-    - [ ] SMOTEENN
-    - [ ] ...
+  - [ ] Random
+  - [ ] ...
+- [ ] Resampling Under/Over
+  - [ ] SMOTEENN
 
-## Feature engineering
+## Feature Engineering
 
 - [ ] Outliers
   - [ ] ...
