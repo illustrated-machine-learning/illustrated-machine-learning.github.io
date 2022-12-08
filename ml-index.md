@@ -2,7 +2,7 @@
 
 > First draft inspired by: https://github.com/alirezadir/machine-learning-interview-enlightener/blob/main/ml-breadth.md
 
-## Algorithms categorization 
+## [Algorithms categorization](https://excalidraw.com/#room=4a3d8536622398c0bf61,r3YDjZ6aEkcP3BWDGlI4_A)
 
 - [ ] Supervised /Unsupervised / Weakly supervised
 - [ ] Classification / Regression / Clustering
@@ -61,14 +61,14 @@
   - [ ] tSNE
 
 
-## Bias Variance
+## [Bias Variance](https://excalidraw.com/#room=4a3d8536622398c0bf61,r3YDjZ6aEkcP3BWDGlI4_A)
 - [ ] Bias Variance explained
 - [ ] Regularization
 - [ ] Feature selection
   - [ ] ..
   - [ ] ..
 
-## Sampling and Resampling
+## [Sampling and Resampling](https://excalidraw.com/#room=4a3d8536622398c0bf61,r3YDjZ6aEkcP3BWDGlI4_A)
 
 > The third level doesn't work for checkboxes
 
@@ -88,7 +88,7 @@
 - [ ] Resampling Under/Over
   - [ ] SMOTEENN
 
-## Feature Engineering
+## [Feature Engineering]((https://excalidraw.com/#room=4a3d8536622398c0bf61,r3YDjZ6aEkcP3BWDGlI4_A))
 
 - [ ] Outliers
   - [ ] ...
