@@ -2,14 +2,14 @@
 
 > First draft inspired by: https://github.com/alirezadir/machine-learning-interview-enlightener/blob/main/ml-breadth.md
 
-## Algorithms categorization
+## Algorithms categorization 
 
 - [ ] Supervised /Unsupervised / Weakly supervised
 - [ ] Classification / Regression / Clustering
 - [ ] Parametric vs Non parametric
 - [ ] Linear vs Nonlinear
 
-## Supervised Learning
+## [Supervised Learning](https://excalidraw.com/#room=98cce90a099c18945878,s9kS_I4p5vThOZmqzCKNkA)
 - [ ] Linear Algorithms
   - [ ] Linear Regression
   - [ ] Logistic Regression
@@ -46,7 +46,7 @@
   - [ ] K-Fold CV
 
 
-## Unsupervised Learning
+## [Unsupervised Learning](https://excalidraw.com/#room=f5bca47ad9a575adb0aa,GwS8CWXrEQul5besHqqIpQ)
 - [ ] Clustering
   - [ ] Centroid based algos - KMeans
   - [ ] Connectivity - Hierachical clusteing
