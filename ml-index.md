@@ -93,7 +93,7 @@
 - [ ] Missing data
   - [ ] ...
   - [ ] ..
-- [ ] Distribution
+- [ ] Distributions
   - [ ] ..
   - [ ] ..
 - [ ] Normalization
