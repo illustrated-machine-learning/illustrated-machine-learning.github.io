@@ -13,15 +13,14 @@
 - [ ] Linear Algorithms
   - [ ] Linear Regression
   - [ ] Logistic Regression
-  - [x] SVMs
-  - [x] LDA
-  - [ ] ...
-- [x] Decision Trees
+  - [ ] SVMs
+  - [ ] LDA
+- [ ] Decision Trees
 - [ ] Ensemble methods
-  - [x] Bagging/Boosting/Stacking
-  - [x] Random Forest
-  - [x] AdaBoost
-  - [x] GBM
+  - [ ] Bagging/Boosting/Stacking
+  - [ ] Random Forest
+  - [ ] AdaBoost
+  - [ ] GBM
   - [ ] XGBoost
 - [ ] How to choose a ML Algorithm? Graph-like tree
 - [x] Optimization
@@ -32,11 +31,11 @@
   - [x] Nestervo Momentum
   - [x] RMSProp
   - [x] Adam
-- [x] Loss functions
-  - [x] Cross Entropy
-  - [x] Hinge Loss
-  - [x] MAE
-  - [x] MSE
+- [ ] Loss functions
+  - [ ] Cross Entropy
+  - [ ] Hinge Loss
+  - [ ] MAE
+  - [ ] MSE
 - [ ] Model evaluation
   - [ ] Confusion MAtrix ecc
   - [ ] ROC / AUC
