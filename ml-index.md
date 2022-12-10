@@ -2,51 +2,51 @@
 
 > First draft inspired by: https://github.com/alirezadir/machine-learning-interview-enlightener/blob/main/ml-breadth.md
 
-## [Algorithms categorization](https://excalidraw.com/#room=4a3d8536622398c0bf61,r3YDjZ6aEkcP3BWDGlI4_A)
+## Algorithms categorization
 
 - [ ] Supervised /Unsupervised / Weakly supervised
 - [ ] Classification / Regression / Clustering
 - [ ] Parametric vs Non parametric
 - [ ] Linear vs Nonlinear
 
-## [Supervised Learning](https://excalidraw.com/#room=98cce90a099c18945878,s9kS_I4p5vThOZmqzCKNkA)
+## Supervised Learning
 - [ ] Linear Algorithms
   - [ ] Linear Regression
   - [ ] Logistic Regression
-  - [ ] SVMs
-  - [ ] LDA
+  - [x] SVMs
+  - [x] LDA
   - [ ] ...
-- [ ] Decision Trees
+- [x] Decision Trees
 - [ ] Ensemble methods
-  - [ ] Bagging/Boosting/Stacking
-  - [ ] Random Forest
-  - [ ] AdaBoost
-  - [ ] GBM
+  - [x] Bagging/Boosting/Stacking
+  - [x] Random Forest
+  - [x] AdaBoost
+  - [x] GBM
   - [ ] XGBoost
 - [ ] How to choose a ML Algorithm? Graph-like tree
-- [ ] Optimization
-  - [ ] ERM paradigm
-  - [ ] Gradient Descent
-  - [ ] SGD
-  - [ ] Momentum
-  - [ ] Nestervo Momentum
-  - [ ] RMSProp
-  - [ ] Adam
-- [ ] Loss functions
-  - [ ] Logistic loss function
-  - [ ] Cross Entropy
-  - [ ] Hinge Loss
-  - [ ] KL loss
+- [x] Optimization
+  - [x] ERM paradigm
+  - [x] Gradient Descent
+  - [x] SGD
+  - [x] Momentum
+  - [x] Nestervo Momentum
+  - [x] RMSProp
+  - [x] Adam
+- [x] Loss functions
+  - [x] Cross Entropy
+  - [x] Hinge Loss
+  - [x] MAE
+  - [x] MSE
 - [ ] Model evaluation
   - [ ] Confusion MAtrix ecc
   - [ ] ROC / AUC
-  - [ ] MAE / MSE ecc
+  - [ ] MAE / MSE / RMSE / RMAE
 - [ ] Model selection
   - [ ] Cross Validation
   - [ ] K-Fold CV
 
 
-## [Unsupervised Learning](https://excalidraw.com/#room=f5bca47ad9a575adb0aa,GwS8CWXrEQul5besHqqIpQ)
+## Unsupervised Learning
 - [ ] Clustering
   - [ ] Centroid based algos - KMeans
   - [ ] Connectivity - Hierachical clusteing
@@ -61,14 +61,14 @@
   - [ ] tSNE
 
 
-## [Bias Variance](https://excalidraw.com/#room=4a3d8536622398c0bf61,r3YDjZ6aEkcP3BWDGlI4_A)
+## Bias Variance
 - [ ] Bias Variance explained
 - [ ] Regularization
 - [ ] Feature selection
   - [ ] ..
   - [ ] ..
 
-## [Sampling and Resampling](https://excalidraw.com/#room=4a3d8536622398c0bf61,r3YDjZ6aEkcP3BWDGlI4_A)
+## Sampling and Resampling
 
 > The third level doesn't work for checkboxes
 
@@ -88,7 +88,7 @@
 - [ ] Resampling Under/Over
   - [ ] SMOTEENN
 
-## [Feature Engineering]((https://excalidraw.com/#room=4a3d8536622398c0bf61,r3YDjZ6aEkcP3BWDGlI4_A))
+## Feature Engineering
 
 - [ ] Outliers
   - [ ] ...
