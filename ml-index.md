@@ -4,7 +4,7 @@
 
 ## Algorithms categorization
 
-- [ ] Supervised /Unsupervised / Weakly supervised
+- [ ] Supervised / Unsupervised / Weakly supervised
 - [ ] Classification / Regression / Clustering
 - [ ] Parametric vs Non parametric
 - [ ] Linear vs Nonlinear
@@ -15,13 +15,17 @@
   - [ ] Logistic Regression
   - [ ] SVMs
   - [ ] LDA
-- [ ] Decision Trees
-- [ ] Ensemble methods
-  - [ ] Bagging/Boosting/Stacking
-  - [ ] Random Forest
-  - [ ] AdaBoost
-  - [ ] GBM
-  - [ ] XGBoost
+  - [x] Regularization
+  - [x] Regularization / L1
+  - [x] Regularization / L2
+  - [x] Regularization / ElasticNet
+- [x] Decision Trees
+- [x] Ensemble methods
+  - [x] Bagging/Boosting/Stacking
+  - [x] Random Forest
+  - [x] AdaBoost
+  - [x] GBM
+  - [x] XGBoost
 - [x] Optimization
   - [x] ERM paradigm
   - [x] Gradient Descent
@@ -41,9 +45,6 @@
   - [x] MAE / MSE
   - [ ] RMSE / RMAE 
   - [ ] R^2 / Adjusted R2
-- [x] Model selection
-  - [x] Cross Validation
-  - [x] K-Fold CV
 
 
 ## Unsupervised Learning
@@ -68,7 +69,7 @@
 
 
 ## Bias Variance
-- [ ] Bias Variance explained
+- [x] Bias Variance explained
 - [x] Regularization
 - [ ] Feature selection
   - [ ] ..
@@ -76,23 +77,25 @@
 
 ## Sampling and Resampling
 
-> The third level doesn't work for checkboxes
-
-- [ ] Sampling
-  - [ ] Uniform 
-  - [ ] Reservoir
-  - [ ] Stratified
-- [ ] Resmpling
-- [ ] Resampling / Over
-  - [ ] Random
-  - [ ] SMOTE
-  - [ ] ...
-- [ ] Resampling / Under
-  - [ ] Under
-  - [ ] Random
-  - [ ] ...
-- [ ] Resampling Under/Over
-  - [ ] SMOTEENN
+- [x] Sampling
+  - [x] Uniform 
+  - [x] Reservoir
+  - [x] Stratified
+- [x] Resampling 
+  - [x] Cross Validation
+    - [x] K-Fold CV
+    - [x] Leave One Out
+  - [x] Bootstrapping
+- [ ] Under/Over- Sampling
+  - [ ] Oversampling
+    - [ ] Random
+    - [ ] SMOTE
+    - [ ] ...
+  - [ ] Undersampling
+    - [ ] Random
+    - [ ] ...
+  - [ ] Under- and Over- Sampling
+    - [ ] SMOTEENN
 
 ## Feature Engineering
 
