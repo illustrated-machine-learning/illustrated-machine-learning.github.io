@@ -22,7 +22,6 @@
   - [ ] AdaBoost
   - [ ] GBM
   - [ ] XGBoost
-- [ ] How to choose a ML Algorithm? Graph-like tree
 - [x] Optimization
   - [x] ERM paradigm
   - [x] Gradient Descent
@@ -31,25 +30,28 @@
   - [x] Nestervo Momentum
   - [x] RMSProp
   - [x] Adam
-- [ ] Loss functions
-  - [ ] Cross Entropy
-  - [ ] Hinge Loss
-  - [ ] MAE
-  - [ ] MSE
+- [x] Loss functions
+  - [x] Cross Entropy
+  - [x] Hinge Loss
+  - [x] MAE
+  - [x] MSE
 - [ ] Model evaluation
-  - [ ] Confusion MAtrix ecc
-  - [ ] ROC / AUC
-  - [ ] MAE / MSE / RMSE / RMAE
-- [ ] Model selection
-  - [ ] Cross Validation
-  - [ ] K-Fold CV
+  - [x] Confusion MAtrix ecc
+  - [x] ROC / AUC
+  - [x] MAE / MSE
+  - [ ] RMSE / RMAE 
+  - [ ] R^2 / Adjusted R2
+- [x] Model selection
+  - [x] Cross Validation
+  - [x] K-Fold CV
 
 
 ## Unsupervised Learning
-- [ ] Clustering
-  - [ ] Centroid based algos - KMeans
-  - [ ] Connectivity - Hierachical clusteing
-  - [ ] Density models - DBScan
+- [x] Clustering
+  - [x] Centroid based algos - KMeans
+  - [x] Connectivity - Hierachical clusteing
+  - [x] Density models - DBScan
+  - [x] Clustering validity
 - [ ] Gaussian Mixture Models
 - [ ] LSA
 - [ ] Hidden Markov Models
@@ -59,10 +61,15 @@
   - [ ] LDA
   - [ ] tSNE
 
+## Hyperaparameters Tuning
+- [x] Grid Search
+- [x] Random Search
+- [x] Coarse-to-fine search
+
 
 ## Bias Variance
 - [ ] Bias Variance explained
-- [ ] Regularization
+- [x] Regularization
 - [ ] Feature selection
   - [ ] ..
   - [ ] ..
