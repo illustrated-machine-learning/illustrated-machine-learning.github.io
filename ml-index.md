@@ -26,6 +26,9 @@
   - [x] AdaBoost
   - [x] GBM
   - [x] XGBoost
+- [x] Distance Based algorithms
+  - [x] Distance metrics
+  - [x] KNN
 - [x] Optimization
   - [x] ERM paradigm
   - [x] Gradient Descent
