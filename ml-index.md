@@ -57,6 +57,8 @@
 - [ ] LSA
 - [ ] Hidden Markov Models
 - [ ] Dimensionality Reduction
+  - [X] Main idea about Dimensionality Reduction
+  - [X] Curse of dimensionality
   - [ ] PCA
   - [ ] ICA
   - [ ] LDA
@@ -77,6 +79,9 @@
 
 ## Sampling and Resampling
 
+> For a first release it may be ok. 
+> Then, we may think to add more sampling or under-/over-sampling techniques. 
+
 - [x] Sampling
   - [x] Uniform 
   - [x] Reservoir
@@ -86,16 +91,13 @@
     - [x] K-Fold CV
     - [x] Leave One Out
   - [x] Bootstrapping
-- [ ] Under/Over- Sampling
-  - [ ] Oversampling
-    - [ ] Random
-    - [ ] SMOTE
-    - [ ] ...
-  - [ ] Undersampling
-    - [ ] Random
-    - [ ] ...
-  - [ ] Under- and Over- Sampling
-    - [ ] SMOTEENN
+- [x] Under/Over- Sampling
+  - [x] Oversampling
+    - [x] SMOTE
+  - [x] Undersampling
+    - [x] Random
+  - [x] Under- and Over- Sampling
+    - [x] SMOTEENN
 
 ## Feature Engineering
 
