@@ -56,16 +56,16 @@
   - [x] Connectivity - Hierachical clusteing
   - [x] Density models - DBScan
   - [x] Clustering validity
-- [ ] Gaussian Mixture Models
-- [ ] LSA
-- [ ] Hidden Markov Models
 - [ ] Dimensionality Reduction
   - [X] Main idea about Dimensionality Reduction
   - [X] Curse of dimensionality
-  - [ ] PCA
-  - [ ] ICA
-  - [ ] LDA
+  - [x] PCA
+  - [x] LDA
   - [ ] tSNE
+- [ ] Gaussian Mixture Models
+- [ ] LSA
+- [ ] Hidden Markov Models
+
 
 ## Hyperaparameters Tuning
 - [x] Grid Search
