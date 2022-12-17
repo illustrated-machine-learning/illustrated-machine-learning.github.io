@@ -1,0 +1,114 @@
+<html>
+
+    <head>
+        <style>
+            
+            iframe {
+                position: relative;
+                width: 100vw;
+                height: 100%;
+                border: None;
+                display: block;
+                margin: auto
+            }
+
+            
+
+            svg {
+                position: relative;
+                height: 100%;
+                width: 100%;
+            }
+
+            .container {
+                margin-top: 5vh;
+                text-align: center;
+            }
+
+        </style>
+
+        <link rel="stylesheet" href="../style/style.css" />
+
+    </head>
+
+    <body>
+
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+            <span></span>
+            </label>
+
+            <ul class="menu__box">
+            <li><a class="menu__item" href="#">Home</a></li>
+            <li><a class="menu__item" href="#">Contacts</a></li>
+            <li>
+                <button class="menu__item collapsible" href="#">Machine Learning</button>
+                <div class="content"> <!-- -->
+                    <ol>
+                        <li><a class="menu__item h2" href="#">General Machine Learning</a></li>
+                        <ol>
+                            <li><a class="menu__item h3" href="#">Categorization</a></li>
+                            <li><a class="menu__item h3" href="#">Imbalance</a></li>
+                        </ol>
+                        <li><a class="menu__item h2" href="#">Supervised</a></li>
+                        <ol>
+                            <li><a class="menu__item h3" href="#">Categorization</a></li>
+                            <li><a class="menu__item h3" href="#">Linear Models</a></li>
+                            <ol>
+                                <li><a class="menu__item h3" href="#">Linear Regression</a></li>
+                                <li><a class="menu__item h3" href="#">Logistic Regression</a></li>
+                            </ol>
+                        </ol>
+                    </ol>
+                    
+                    
+                    <a class="menu__item h2" href="#">2. Supervised</a>
+                    <a class="menu__item h3" href="#">2.1 Linear Models</a>
+                    <a class="menu__item h4" href="#">2.2 Linear Regression</a>
+                    <a class="menu__item h4" href="#">2.3 Regularization</a>
+                    <a class="menu__item h4" href="#">2.4 Logistic Regression</a>
+                </div>
+            </li>
+            <li>
+                <button class="menu__item collapsible" href="#">Rubrica #2</button>
+                <div class="content">
+                    <a class="menu__item h2" href="#">1. Section</a>
+                    <a class="menu__item h3" href="#">1.1 Section 2</a>
+                </div>
+            </li>
+            </ul>
+        </div>
+
+
+
+
+        <div class="container">
+
+            <img src="../img/img.png" height="auto" width="80%">
+
+
+        </div>
+
+
+
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+            });
+        }
+        </script>
+
+    </body>
+
+</html>
