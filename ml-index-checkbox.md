@@ -4,17 +4,17 @@
 
 ## Algorithms categorization
 
-- [ ] Supervised / Unsupervised / Weakly supervised
-- [ ] Classification / Regression / Clustering
-- [ ] Parametric vs Non parametric
-- [ ] Linear vs Nonlinear
+- [x] Supervised / Unsupervised / Weakly supervised
+- [x] Classification / Regression / Clustering
+- [x] Parametric vs Non parametric
+- [x] Linear vs Nonlinear
 
 ## Supervised Learning
-- [ ] Linear Algorithms
-  - [ ] Linear Regression
-  - [ ] Logistic Regression
-  - [ ] SVMs
-  - [ ] LDA
+- [x] Linear Algorithms
+  - [x] Linear Regression
+  - [x] Logistic Regression
+  - [x] SVMs
+  - [x] LDA
   - [x] Regularization
   - [x] Regularization / L1
   - [x] Regularization / L2
