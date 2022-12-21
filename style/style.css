@@ -106,7 +106,8 @@
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: monospace;
   }
   
   .active, .collapsible:hover {
@@ -119,6 +120,12 @@
     overflow: hidden;
     background-color: #f1f1f1;
   }
+
+/* ------------------ BODY ------------------ */
+
+body {
+    font-family: monospace !important;
+}
 
   
 /* ------------------ TEXT ------------------ */
