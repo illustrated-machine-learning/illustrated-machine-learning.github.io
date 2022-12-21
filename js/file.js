@@ -76,5 +76,22 @@ function loadIndex(url) {
 }
 
 window.addEventListener('load', function () {
-    loadIndex('ml-index-website.md');
+
+    var split_path = document.location.href.split("/");
+    
+    // we are at index.html
+    if (split_path.length == 4)
+        loadIndex('ml-index-website.md'); 
+    
+    // we are at pages/*/*.html
+    else if (split_path.length == 6)
+        loadIndex('../../../ml-index-website.md');
+
+    // we are at pages/contacts.html
+    else if (split_path.length == 5) 
+        loadIndex('../../ml-index-website.md');
+
+    else 
+        return
+    
 })
