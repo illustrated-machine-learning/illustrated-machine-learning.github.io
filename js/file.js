@@ -76,5 +76,5 @@ function loadIndex(url) {
 }
 
 window.addEventListener('load', function () {
-    loadIndex('../../ml-index-website.md');
+    loadIndex('ml-index-website.md');
 })
