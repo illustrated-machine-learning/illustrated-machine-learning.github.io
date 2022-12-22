@@ -2,8 +2,9 @@
 
 To do:
 
-- [ ] Define index (structure & components)
-- [ ] Define contacts (structure & components)
-- [ ] Define "page" organization. Should we use one single page to which we change the png ref?
-- [x] Fix the dropdown menu for inner pages 
-- [ ] Generalize the markdown references. From pages/*.html it is not reachable -> add prefix? Or a full static link? 
+- [x] Define index (structure & components)
+- [x] Define "page" organization. Should we use one single page to which we change the png ref?
+- [x] Fix the ".md" ref. From pages/*.html it is not reachable -> use absolute refs
+- [ ] Make the website responsive
+- [x] Add footer
+- [x] Add Credits page -> Three sections: "Technical Contributors", "Website development", "Reviewers" (if any) 
