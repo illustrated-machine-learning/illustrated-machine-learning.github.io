@@ -32,6 +32,9 @@ function createIndex(res) {
     let currentLevel = 0;
     let currentOl = menuTopicList;
 
+    // modify baseUrl for testing -> then, use "reponame.github.io/"
+    let baseUrl = "https://francescodisalvo05-effective-giggle-9wq97jx6vq5h979-5500.preview.app.github.dev/"
+
     topics.forEach(element => {
         const matches = element.match(/\[(.*)\]\((.*)\)/);
         if(matches.length !== 3) {
@@ -42,7 +45,7 @@ function createIndex(res) {
             let link = document.createElement('a');
             link.classList.add('menu__item', 'h3');
             link.textContent = matches[1];
-            link.href = matches[2];
+            link.href = baseUrl + matches[2];
             entry.append(link);
 
             let tabulations = (element.match(/\t/g) || []).length;
