@@ -2,7 +2,7 @@
 
 To do:
 
-- [ ] Define index (structure & components)
-- [ ] Define contacts (structure & components)
-- [ ] Define "page" organization. Should we use one single page to which we change the png ref?
-- [ ] Fix the ".md" ref. From pages/*.html it is not reachable
+- [x] Define index (structure & components)
+- [x] Define "page" organization. Should we use one single page to which we change the png ref?
+- [x] Fix the ".md" ref. From pages/*.html it is not reachable -> use absolute refs
+- [ ] Make the website responsive
