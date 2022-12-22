@@ -110,7 +110,24 @@ body {
     font-size: 16px;
 }
 
-  
+/* ------------------ FOOTER ------------------ */
+
+footer {
+    margin-top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #F5F5F3;
+    height: 50px;
+    width: 100%;
+    color: black;
+}
+ 
+.text-footer {
+    text-align: center;
+    padding-top: 15px;
+}
+
 /* ------------------ COMPONENTS ------------------ */
 
 
@@ -135,3 +152,4 @@ body {
 .container-img {
     text-align: center;
 }
+
