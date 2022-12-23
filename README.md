@@ -8,6 +8,6 @@ To do:
 - [x] Add footer
 - [x] Add Credits page -> Three sections: "Technical Contributors", "Website development", "Reviewers" (if any) 
 - [ ] Make the website responsive -> Almost.. 
-- [ ] Create references' page
-- [ ] Add tiny section with Disclaimer & Future plans
-- [ ] Add footer & credits & references to any page
+- [ ] Create references' page
+- [ ] Add tiny section with Disclaimer & Future plans
+- [ ] Add footer & credits & references to any page
