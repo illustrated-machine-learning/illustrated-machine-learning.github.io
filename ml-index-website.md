@@ -63,5 +63,5 @@
 6. [Hyperparameters tuning](./pages/machine-learning/tuning.html)
    1. [Grid Search](./pages/machine-learning/tuning.html)
    2. [Random Search](./pages/machine-learning/tuning.html)
-   3. [Coarse-to-fine search](./pages/machine-learning/tuning.html)
+   3. [Coarse-to-Fine search](./pages/machine-learning/tuning.html)
    4. [Sensitivity](./pages/machine-learning/tuning.html#sensitivity)
