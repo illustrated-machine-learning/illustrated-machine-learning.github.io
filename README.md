@@ -6,5 +6,5 @@ To do:
 - [x] Define "page" organization. Should we use one single page to which we change the png ref?
 - [x] Fix the ".md" ref. From pages/*.html it is not reachable -> use absolute refs
 - [ ] Make the website responsive
-- [ ] Add footer
-- [ ] Add Credits page -> Three sections: "Technical Contributors", "Website development", "Reviewers" (if any) 
+- [x] Add footer
+- [x] Add Credits page -> Three sections: "Technical Contributors", "Website development", "Reviewers" (if any) 

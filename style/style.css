@@ -60,33 +60,15 @@
     opacity: 0.8;
     overflow: auto;
 }
+
 .menu__item {
     display: block;
     padding: 12px 24px;
     color: #333;
-    /*font-family: 'Roboto', sans-serif; */
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: 600;
     text-decoration: none;
     transition-duration: .25s;
-}
-
-.h2 {
-    padding: 12px 5px;
-    font-size: 18px !important;
-    font-weight: 500 !important;
-}
-
-.h3 {
-    padding: 12px 5px;
-    font-size: 18px !important;
-    font-weight: 500 !important;
-}
-
-.h4 {
-    padding: 12px 5px;
-    font-size: 18px !important;
-    font-weight: 500 !important;
 }
 
 .menu__item:hover {
@@ -106,7 +88,7 @@
     border: none;
     text-align: left;
     outline: none;
-    font-size: 20px;
+    font-size: 1.2em;
     font-family: monospace;
   }
   
@@ -121,26 +103,44 @@
     background-color: #f1f1f1;
   }
 
-/* ------------------ BODY ------------------ */
+/* ------------------ GENERAL ------------------ */
 
 body {
     font-family: monospace !important;
+    font-size: 16px;
 }
 
-  
-/* ------------------ TEXT ------------------ */
+/* ------------------ FOOTER ------------------ */
+
+footer {
+    margin-top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #F5F5F3;
+    height: 50px;
+    width: 100%;
+    color: black;
+}
+ 
+.text-footer {
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* ------------------ COMPONENTS ------------------ */
 
 
 .text-container {
     text-align: center;
+    width: 80vw;
+    margin: 5% 0;
 }
 
 
 .text-link {
     color:black;
 }
-
-/* ------------------ IMAGE ------------------ */
 
 .img-overview {
 
@@ -152,3 +152,4 @@ body {
 .container-img {
     text-align: center;
 }
+
