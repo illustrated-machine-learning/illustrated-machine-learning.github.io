@@ -1,5 +1,3 @@
-
-
 #menu__toggle {
     opacity: 0;
 }
@@ -52,12 +50,12 @@
     width: 300px;
     height: 100%;
     margin: 0;
-    padding: 80px 0;
+    padding: 80px 0 0;
     list-style: none;
     background-color: #ECEFF1;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
-    opacity: 0.8;
+    opacity: 0.95;
     overflow: auto;
 }
 
@@ -65,10 +63,14 @@
     display: block;
     padding: 12px 24px;
     color: #333;
-    font-size: 2vmin;
-    font-weight: 600;
+    /*font-size: 3vmin;*/
     text-decoration: none;
     transition-duration: .25s;
+}
+
+.menu__item__list {
+    padding: 5px 0px 5px 5px;
+    /*font-size: 2.5vmin;*/
 }
 
 .menu__item:hover {
@@ -83,13 +85,14 @@
     background-color: #777;
     color: white;
     cursor: pointer;
-    padding: 18px 24px;
+    padding: 12px 24px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 2vmin;
+    /*font-size: 3vmin;*/
     font-family: monospace;
+    font-weight: 400;
   }
   
   .active, .collapsible:hover {
@@ -97,7 +100,7 @@
   }
   
   .content {
-    padding: 0 0;
+    padding: 0 0 20% 5%;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
@@ -118,19 +121,15 @@ footer{
     padding: 10px;  
     margin-top: auto;
     text-align: center;
-    font-size: 1.5vmin;
     bottom: 0;
 }
 
 /* ------------------ COMPONENTS ------------------ */
 
-
-
 .text-container {
     text-align: left;
     width: 80vw;
     margin: 5% 0 0 0;
-    font-size: 2vmin;
 }
 
 
@@ -139,13 +138,13 @@ footer{
 }
 
 .container-github {
-    margin-top: 5vmin;
+    margin-top: 2vmin;
     text-align: center;
 }
 
 .container-img {
     text-align: center;
-    margin: 10% 0 10% 0;
+    margin: 5% 0;
 }
 
 .image-title {
@@ -156,4 +155,97 @@ footer{
     width: 80vmin;
     height: auto;
 }
+
+/* ------------------ MEDIA QUERIES ------------------ */
+
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:320px)  { 
+    
+    .menu__box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu__item {
+        font-size: 40px;
+    }
+    
+    .collapsible {
+        font-size: 40px;
+    }
+
+    .menu__item__list {
+        font-size: 30px;
+    }
+    
+    .text-container {
+        font-size: 40px;
+    }
+
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px)  { 
+     
+    
+    .menu__box {
+        width: 100%;
+    }
+
+    .menu__item {
+        font-size: 30px;
+    }
+    
+    .menu__item__list {
+        font-size: 25px;
+    }
+    
+    .text-container {
+        font-size: 30px;
+    }
+
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:961px)  { 
+    
+    .menu__box {
+        width: 100%;
+    }
+
+
+    .menu__item {
+        font-size: 20px;
+    }
+    
+    .menu__item__list {
+        font-size: 15px;
+    }
+    
+    .text-container {
+        font-size: 20px;
+    }
+
+}
+
+/* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) { 
+    
+    .menu__box {
+        width: 500px;
+    }
+
+}
+
+/* hi-res laptops and desktops */ 
+@media (min-width:1281px) { 
+    
+}
+
+
+
+
+
+
+
 

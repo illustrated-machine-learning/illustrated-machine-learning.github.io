@@ -43,7 +43,7 @@ function createIndex(res) {
         else {
             let entry = document.createElement('li');
             let link = document.createElement('a');
-            link.classList.add('menu__item', 'h3');
+            link.classList.add('menu__item','menu__item__list');
             link.textContent = matches[1];
             link.href = baseUrl + matches[2];
             entry.append(link);
