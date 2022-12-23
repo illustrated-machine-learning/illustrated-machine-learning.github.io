@@ -65,7 +65,7 @@
     display: block;
     padding: 12px 24px;
     color: #333;
-    font-size: 1.2em;
+    font-size: 2vmin;
     font-weight: 600;
     text-decoration: none;
     transition-duration: .25s;
@@ -88,7 +88,7 @@
     border: none;
     text-align: left;
     outline: none;
-    font-size: 1.2em;
+    font-size: 2vmin;
     font-family: monospace;
   }
   
@@ -107,34 +107,30 @@
 
 body {
     font-family: monospace !important;
-    font-size: 16px;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
-/* ------------------ FOOTER ------------------ */
-
-footer {
-    margin-top: 5%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #F5F5F3;
-    height: 50px;
-    width: 100%;
-    color: black;
-}
- 
-.text-footer {
+footer{
+    background-color: #fbfbfb;    
+    padding: 10px;  
+    margin-top: auto;
     text-align: center;
-    padding-top: 15px;
+    font-size: 1.5vmin;
+    bottom: 0;
 }
 
 /* ------------------ COMPONENTS ------------------ */
 
 
+
 .text-container {
-    text-align: center;
+    text-align: left;
     width: 80vw;
-    margin: 5% 0;
+    margin: 5% 0 0 0;
+    font-size: 2vmin;
 }
 
 
@@ -142,14 +138,22 @@ footer {
     color:black;
 }
 
-.img-overview {
-
-    width: 50vw;
-    height: auto;
-    filter: blur(0.5px);
+.container-github {
+    margin-top: 5vmin;
+    text-align: center;
 }
 
 .container-img {
     text-align: center;
+    margin: 10% 0 10% 0;
+}
+
+.image-title {
+    width: 80vmin;
+}
+
+.meme-banner {
+    width: 80vmin;
+    height: auto;
 }
 
