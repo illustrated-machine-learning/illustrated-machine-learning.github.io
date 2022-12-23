@@ -1,10 +1,6 @@
 # Machine Learning
 
-1. [Machine Learning](#)
-   1. [Supervision](#)
-   2. [Type of problems](#)
-   3. [Parameters](#)
-   4. [Linearity](#)
+1. [Categorization](./pages/machine-learning/categorization.html)
 2. [Sampling and Resampling](./pages/machine-learning/ml-sampling-resampling.html)
    1. [Sampling](./pages/machine-learning/ml-sampling-resampling.html#sampling)
       1. [Uniform](./pages/machine-learning/ml-sampling-resampling.html#sampling)
