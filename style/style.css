@@ -129,7 +129,7 @@ footer{
 .text-container {
     text-align: left;
     width: 80vw;
-    margin: 5% 0 0 0;
+    margin: 0 0 0 0;
 }
 
 
@@ -144,7 +144,7 @@ footer{
 
 .container-img {
     text-align: center;
-    margin: 5% 0;
+    margin: 5% 0 0 0;
 }
 
 .image-title {
@@ -153,6 +153,16 @@ footer{
 
 .meme-banner {
     width: 80vmin;
+    height: auto;
+}
+
+.credits {
+    width: 30vmin;
+    height: auto;
+}
+
+.references {
+    width: 40vmin;
     height: auto;
 }
 
