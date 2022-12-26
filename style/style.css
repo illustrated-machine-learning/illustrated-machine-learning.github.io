@@ -124,7 +124,16 @@ footer{
     bottom: 0;
 }
 
+.mt-50 {
+    margin-top: 50px;
+}
+
 /* ------------------ COMPONENTS ------------------ */
+
+.container {
+    margin: 5vh 0;
+    text-align: center;
+}
 
 .text-container {
     text-align: left;
@@ -190,6 +199,13 @@ footer{
     
     .text-container {
         font-size: 40px;
+        width: 80vw;
+    }
+
+    /* make people scroll! */
+    .img-content {
+        width: auto;
+        height: auto;
     }
 
 }
@@ -212,6 +228,12 @@ footer{
     
     .text-container {
         font-size: 30px;
+        width: 80vw;
+    }
+
+    .img-content {
+        width: 95vw;
+        height: auto;
     }
 
 }
@@ -234,6 +256,12 @@ footer{
     
     .text-container {
         font-size: 20px;
+        width: 70vw;
+    }
+
+    .img-content {
+        width: 90vw;
+        height: auto;
     }
 
 }
@@ -245,10 +273,25 @@ footer{
         width: 500px;
     }
 
+    .text-container {
+        font-size: 20px;
+        width: 60vw;
+    }
+
+    .img-content {
+        width: 80vw;
+        height: auto;
+    }
+
 }
 
 /* hi-res laptops and desktops */ 
 @media (min-width:1281px) { 
+
+    .img-content {
+        width: 70vw;
+        height: auto;
+    }
     
 }
 
