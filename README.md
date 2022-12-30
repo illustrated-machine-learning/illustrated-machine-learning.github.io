@@ -1,13 +1,9 @@
-# Illustrated Machine Learning
 
-To do:
+<p align="center">
+    <img src="img/banner.png" >
+</p>
 
-- [x] Define index (structure & components)
-- [x] Define "page" organization. Should we use one single page to which we change the png ref?
-- [x] Fix the ".md" ref. From pages/*.html it is not reachable -> use absolute refs
-- [x] Add footer
-- [x] Add Credits page -> Three sections: "Technical Contributors", "Website development", "Reviewers" (if any) 
-- [ ] Make the website responsive -> Almost.. 
-- [x] Create references' page
-- [ ] Add tiny section with Disclaimer & Future plans
-- [x] Add footer & credits & references to any page
+Welcome to our website, where **we strive to make the complex world of Machine Learning more approachable through clear and concise illustrations**. Our goal is to provide a visual aid for **students**, **professionals**, and anyone preparing for a **technical interview** to better understand the underlying concepts of Machine Learning. 
+
+Whether you're just **starting out** in the field or you're a **seasoned professional** looking to refresh your knowledge, we hope our illustrations will be a **valuable resource** on your journey to understanding Machine Learning. 
+
