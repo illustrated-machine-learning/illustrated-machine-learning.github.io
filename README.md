@@ -10,5 +10,5 @@ Whether you're just **starting out** in the field or you're a **seasoned profess
 We're all humans, therefore if you find any **mistake**, please raise an issue and let us know! If you are interested to **help us** with the development of our website, please don't hesitate to reach out to us. We welcome any and all offers of help!
 
 <p align="center">
-    <a href="https://theillustratedmachinelearning.github.io">theillustratedmachinelearning.github.io</a>
+    <a href="https://illustrated-machine-learning.github.io/">illustrated-machine-learning.github.io/</a>
 </p>

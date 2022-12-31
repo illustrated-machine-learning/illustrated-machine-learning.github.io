@@ -33,7 +33,7 @@ function createIndex(res) {
     let currentOl = menuTopicList;
 
     // modify baseUrl for testing -> then, use "reponame.github.io/"
-    let baseUrl = "https://francescodisalvo05-effective-giggle-9wq97jx6vq5h979-5500.preview.app.github.dev/"
+    let baseUrl = "https://illustrated-machine-learning.github.io/"
 
     topics.forEach(element => {
         const matches = element.match(/\[(.*)\]\((.*)\)/);
