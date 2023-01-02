@@ -91,19 +91,18 @@
     text-align: left;
     outline: none;
     font-family: monospace;
-  }
+}
   
-  /*
-  .active, .collapsible:hover {
-    background-color: #555;
-  }*/
-  
-  .content {
+.content {
     padding: 0 0 20% 5%;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
-  }
+}
+
+.current-page {
+    background-color: #e0e0e0;
+}
 
 /* ------------------ GENERAL ------------------ */
 
