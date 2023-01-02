@@ -63,7 +63,6 @@
     display: block;
     padding: 12px 24px;
     color: #333;
-    /*font-size: 3vmin;*/
     text-decoration: none;
     transition-duration: .25s;
 }
@@ -82,22 +81,22 @@
 /* ------------ DROPDOWN ------- */
 
 .collapsible {
-    background-color: #777;
-    color: white;
+    /*background-color: #777;*/
+    color: black;
+    font-weight: 600;
     cursor: pointer;
     padding: 12px 24px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    /*font-size: 3vmin;*/
     font-family: monospace;
-    font-weight: 400;
   }
   
+  /*
   .active, .collapsible:hover {
     background-color: #555;
-  }
+  }*/
   
   .content {
     padding: 0 0 20% 5%;

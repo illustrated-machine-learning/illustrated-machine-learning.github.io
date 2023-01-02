@@ -14,13 +14,21 @@ function createIndex(res) {
     const topics = lines.filter(x => x[0] != '#');
 
     const navBar = document.getElementById('my-menu');
+    const sectionIndex = document.getElementById('index-li');
+
+    document.getElementById("index-li").remove();
+
     const newSection = document.createElement('li');
     const menuButton = document.createElement('button');
+    
     menuButton.classList.add('menu__item', 'collapsible');
-    menuButton.textContent = title;
+    menuButton.textContent = title + ' \u2304';
+
     menuButton.addEventListener("click", collapseExplodeHandler);
     newSection.append(menuButton);
-    navBar.append(newSection);
+    
+    navBar.prepend(newSection);
+    navBar.prepend(sectionIndex);
 
     const menuContentRoot = document.createElement('div');
     menuContentRoot.classList.add('content');
