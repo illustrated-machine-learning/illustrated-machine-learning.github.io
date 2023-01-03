@@ -173,6 +173,18 @@ footer{
     height: auto;
 }
 
+.arrow {
+    width: 50px;
+    margin: 5% 2.5% 5% 2.5%;
+}
+
+.arrow-disabled {
+    opacity: 0.1;
+}
+
+.a-arrow {
+    text-decoration: none;
+}
 /* ------------------ MEDIA QUERIES ------------------ */
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
