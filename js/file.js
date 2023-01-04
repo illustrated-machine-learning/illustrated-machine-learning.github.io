@@ -91,16 +91,20 @@ window.addEventListener('load', function () {
     var split_path = document.location.href.split("/");
     
     // we are at index.html
-    if (split_path.length == 4)
-        loadIndex('ml-index-website.md'); 
+    if (split_path.length == 4) {
+        loadIndex('indexes/ml-index.md'); 
+    }
     
     // we are at pages/*/*.html
-    else if (split_path.length == 6)
-        loadIndex('../../../ml-index-website.md');
+    else if (split_path.length == 6) {
+        loadIndex('../../../indexes/ml-index.md');
+    }
+        
 
     // we are at pages/contacts.html
-    else if (split_path.length == 5) 
-        loadIndex('../../ml-index-website.md');
+    else if (split_path.length == 5) {
+        loadIndex('../../indexes/ml-index.md');
+    }
 
     else 
         return

@@ -1,0 +1,15 @@
+# Computer Vision
+
+1. [Lecture 1](#)
+   1. [Organization](#)
+   2. [Introduction](#)
+2. [Lecture 2](#)
+   1. [Primitives and transformations](#)
+      1. [2D primitives](#)
+      2. [3D primitives](#)
+      3. [2D transformations](#)
+   2. [Geometric image formation](#)
+      1. [Pinhole camera](#)
+      2. [Projection models](#)
+         1. [Orthographic projection](#)
+         2. [Perspective projection](#)
