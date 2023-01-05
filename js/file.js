@@ -92,17 +92,21 @@ window.addEventListener('load', function () {
     
     // we are at index.html
     if (split_path.length == 4) {
+        loadIndex('indexes/cv-index.md');
         loadIndex('indexes/ml-index.md'); 
+         
     }
     
     // we are at pages/*/*.html
     else if (split_path.length == 6) {
+        loadIndex('../../../indexes/cv-index.md');
         loadIndex('../../../indexes/ml-index.md');
     }
         
 
     // we are at pages/contacts.html
     else if (split_path.length == 5) {
+        loadIndex('../../indexes/cv-index.md');
         loadIndex('../../indexes/ml-index.md');
     }
 
