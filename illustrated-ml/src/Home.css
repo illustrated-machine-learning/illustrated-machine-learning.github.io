@@ -1,0 +1,25 @@
+.center {
+    text-align: center;
+}
+
+.text-container {
+    text-align: left;
+    width: 80vw;
+    margin: 0 0 0 0;
+}
+
+.container-github {
+    margin-top: 2vmin;
+    text-align: center;
+}
+
+.container-img {
+    text-align: center;
+    margin: 5% 0 0 0;
+}
+
+.meme-banner {
+    width: 80vmin;
+    height: auto;
+    margin-bottom: 5%;
+}
