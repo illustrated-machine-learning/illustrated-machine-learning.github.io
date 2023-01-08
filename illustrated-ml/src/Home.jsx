@@ -16,7 +16,7 @@ export default function Home() {
                     we hope our illustrations will be a <b>valuable resource</b> on your journey to understanding Machine Learning. <br /><br />
                 </p>
             </div>
-            <div style={{textAlign: 'center', color:'#1864ab'}}>
+            <div className="text-container" style={{textAlign: 'center', color:'#1864ab'}}>
                 <p><i>To see our full list of topics, <b>click on the top-left hamburger-menu!</b></i></p>
             </div>
             <div className="text-container">
