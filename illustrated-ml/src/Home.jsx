@@ -2,7 +2,10 @@ import './Home.css';
 
 export default function Home() {
     return (
-        <div className="center">
+        <div className="content-container">
+            <div className="container-img">
+                <object type="image/svg+xml" data={process.env.PUBLIC_URL + '/img/banner.svg'} className="image-title banner"></object>
+            </div>
             <div className="text-container">
                 <p>
                     Welcome to our website, where <b>we strive to make the complex world of Machine Learning more approachable through
@@ -13,7 +16,7 @@ export default function Home() {
                     we hope our illustrations will be a <b>valuable resource</b> on your journey to understanding Machine Learning. <br /><br />
                 </p>
             </div>
-            <div className="text-container" style={{textAlign: 'center', color:'#1864ab'}}>
+            <div style={{textAlign: 'center', color:'#1864ab'}}>
                 <p><i>To see our full list of topics, <b>click on the top-left hamburger-menu!</b></i></p>
             </div>
             <div className="text-container">
@@ -26,7 +29,7 @@ export default function Home() {
             </div>
             <div className="container-img">
                 <a href="./../pages/machine-learning/categorization.html">
-                    <object  className="meme-banner" type="image/svg+xml" data={process.env.PUBLIC_URL + '/img/meme.svg'}></object>
+                    <object className="meme-banner" type="image/svg+xml" data={process.env.PUBLIC_URL + '/img/meme.svg'}></object>
                 </a>
             </div>
         </div>

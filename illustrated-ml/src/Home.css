@@ -1,11 +1,14 @@
-.center {
+.content-container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 0 20%;
+    text-align: left;
 }
 
-.text-container {
-    text-align: left;
-    width: 80vw;
-    margin: 0 0 0 0;
+.banner {
+    height: 20vh;
 }
 
 .container-github {

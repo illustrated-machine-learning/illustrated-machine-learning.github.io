@@ -1,3 +1,7 @@
+/**************************************************************************
+                  COMMON CSS CLASSES AND MEDIA QUERIES
+**************************************************************************/
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +15,123 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ------------------ MEDIA QUERIES ------------------ */
+
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:320px)  { 
+    
+  .menu__box {
+      width: 100%;
+      height: 100%;
+  }
+
+  .menu__item {
+      font-size: 40px;
+  }
+  
+  .collapsible {
+      font-size: 40px;
+  }
+
+  .menu__item__list {
+      font-size: 30px;
+  }
+  
+  .text-container {
+      font-size: 40px;
+      width: 80vw;
+  }
+
+  /* make people scroll! */
+  .img-content {
+      width: auto;
+      height: auto;
+  }
+
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px)  { 
+
+  .menu__box {
+      width: 100%;
+  }
+
+  .menu__item {
+      font-size: 30px;
+  }
+  
+  .menu__item__list {
+      font-size: 25px;
+  }
+  
+  .text-container {
+      font-size: 30px;
+      width: 80vw;
+  }
+
+  .img-content {
+      width: 95vw;
+      height: auto;
+  }
+
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:961px)  { 
+  
+  .menu__box {
+      width: 100%;
+  }
+
+
+  .menu__item {
+      font-size: 20px;
+  }
+  
+  .menu__item__list {
+      font-size: 15px;
+  }
+  
+  .text-container {
+      font-size: 20px;
+      width: 70vw;
+  }
+
+  .img-content {
+      width: 90vw;
+      height: auto;
+  }
+
+}
+
+/* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) { 
+  
+  .menu__box {
+      width: 500px;
+  }
+
+  .text-container {
+      font-size: 20px;
+      width: 60vw;
+  }
+
+  .img-content {
+      width: 80vw;
+      height: auto;
+  }
+
+}
+
+/* hi-res laptops and desktops */ 
+@media (min-width:1281px) { 
+
+  .img-content {
+      width: 70vw;
+      height: auto;
+  }
+  
+}
+
