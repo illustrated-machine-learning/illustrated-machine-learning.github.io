@@ -126,6 +126,10 @@ footer{
     margin-top: 50px;
 }
 
+li {
+    padding: 10px 0 0 0;
+}
+
 /* ------------------ COMPONENTS ------------------ */
 
 .container {
@@ -165,6 +169,11 @@ footer{
 
 .credits {
     width: 30vmin;
+    height: auto;
+}
+
+.news {
+    width: 25vmin;
     height: auto;
 }
 
