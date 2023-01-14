@@ -32,3 +32,13 @@
    4. [Bundle Adjustment](./pages/computer-vision/lecture-03.html#bundle-adjustment)
       1. [Bundle Adjustment](./pages/computer-vision/lecture-03.html#bundle-adjustment)
       2. [Incremental SfM](./pages/computer-vision/lecture-03.html#incremental-sfm)
+4. [Lecture 4](./pages/computer-vision/lecture-04.html)
+   1. [Preliminaries](./pages/computer-vision/lecture-04.html#stereo-matching)
+      1. [Stereo Matching](./pages/computer-vision/lecture-04.html#stereo-matching)
+      2. [Epipolar Geometry](./pages/computer-vision/lecture-04.html#epipolar-geometry)
+      3. [Image Rectification](./pages/computer-vision/lecture-04.html#rectification)
+      4. [Disparity](./pages/computer-vision/lecture-04.html#disparity)
+   2. [Block Matching](./pages/computer-vision/lecture-04.html#correspondence-ambiguity)
+      1. [Correspondence Ambiguity](./pages/computer-vision/lecture-04.html#correspondence-ambiguity)
+      2. [Block Matching](./pages/computer-vision/lecture-04.html#block-matching)
+    
