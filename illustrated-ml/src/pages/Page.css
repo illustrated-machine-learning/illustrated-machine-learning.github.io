@@ -1,0 +1,66 @@
+.content-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 0 20%;
+    text-align: left;
+}
+
+.banner {
+    height: 20vh;
+}
+
+.full-screen-svg {
+    height: 80vh;
+}
+
+.container-github {
+    margin-top: 2vmin;
+    text-align: center;
+}
+
+.container-img {
+    text-align: center;
+    margin: 5% 0 0 0;
+}
+
+.meme-banner {
+    width: 80vmin;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.credits {
+    width: 30vmin;
+    height: auto;
+}
+
+.credits-list {
+    line-height: 2.5;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-rotation {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
