@@ -82,7 +82,7 @@ function createIndex(res) {
 function loadIndex(url) {
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() { createIndex(this.responseText); }
-    xhttp.open("GET", url, true);
+    xhttp.open("GET", url, false);
     xhttp.send();
 }
 
