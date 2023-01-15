@@ -126,6 +126,10 @@ footer{
     margin-top: 50px;
 }
 
+.hamburger-menu span {
+    top: 8px;
+}
+
 .hamburger-menu li {
     padding: 0 !important;
 }
