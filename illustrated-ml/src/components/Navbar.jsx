@@ -14,6 +14,12 @@ export default function Navbar() {
                 <Link className="menu__item current-page" to={`/`}>Home</Link>
             </li>
             <li>
+                <Link className="menu__item" to={`/machine-learning`}>Machine Learning</Link>
+            </li>
+            <li>
+                <Link className="menu__item" to={`/computer-vision`}>Computer Vision</Link>
+            </li>
+            <li>
                 <Link className="menu__item" to={`/credits`}>Credits</Link>
             </li>
             <li>

@@ -1,11 +1,7 @@
 import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Outlet
-} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import NotFound from './pages/404';
@@ -15,53 +11,40 @@ import References from './pages/References';
 import Todos from './pages/Todos';
 import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
+import * as ML from './pages/MachineLearning';
 
-const AppLayout = () => (
-  <>
-    <Navbar />
-    <Outlet />
-    <Footer />
-  </>
-);
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <AppLayout />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/credits",
-        element: <Credits />,
-      },
-      {
-        path: "/news",
-        element: <News />,
-      },
-      {
-        path: "/references",
-        element: <References />,
-      },
-      {
-        path: "/todos",
-        element: <Todos />,
-      },
-    ]
-  },
-  {
-    path: "*",
-    element: <NotFound />,
-  },
-]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route index path="/" element={<Home />} />
+        <Route path="machine-learning" element={<ML.Parent />} >
+          <Route path='categorization' element={<ML.Categorization />} />
+          <Route path='ml-sampling-resampling' element={<ML.MLSamplingReSampling />} />
+          <Route path='bias-variance' element={<ML.BiasVariance />} />
+          <Route path='linear-algorithms' element={<ML.LinearAlgo />} />
+          <Route path='decision-tree' element={<ML.DecisionTree />} />
+          <Route path='ensemble' element={<ML.Ensemble />} />
+          <Route path='distance-based' element={<ML.DistanceBased />} />
+          <Route path='optimization' element={<ML.Optimization />} />
+          <Route path='loss-functions' element={<ML.LossFunction />} />
+          <Route path='metrics' element={<ML.Metrics />} />
+          <Route path='clustering' element={<ML.Clustering />} />
+          <Route path='dimensionality-reduction' element={<ML.DimensionReduction />} />
+          <Route path='tuning' element={<ML.Tuning />} />
+        </Route>
+        <Route path="credits" element={<Credits />} />
+        <Route path="news" element={<News />} />
+        <Route path="references" element={<References />} />
+        <Route path="todos" element={<Todos />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+    <Footer />
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

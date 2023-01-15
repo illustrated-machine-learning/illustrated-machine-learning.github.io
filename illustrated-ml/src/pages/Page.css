@@ -7,6 +7,14 @@
     text-align: left;
 }
 
+.chapter-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+    text-align: left;
+}
+
 .banner {
     height: 20vh;
 }
@@ -45,6 +53,23 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.spaced {
+    justify-content: space-around !important;
+}
+
+.arrow {
+    width: 50px;
+    margin: 5% 2.5% 5% 2.5%;
+}
+
+.arrow-disabled {
+    opacity: 0.1;
+}
+
+.a-arrow {
+    text-decoration: none;
 }
 
 .image-rotation {
