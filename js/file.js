@@ -1,3 +1,7 @@
+function switchSVGsFonts(fontFamily) {
+    document.querySelectorAll('object').forEach(x => x.contentDocument.querySelectorAll('text').forEach(y => y.setAttribute('font-family', fontFamily)));
+}
+
 function collapseExplodeHandler() {
     this.classList.toggle("active");
     let content = this.nextElementSibling;
