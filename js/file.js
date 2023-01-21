@@ -94,6 +94,7 @@ window.addEventListener('load', function () {
     if (split_path.length == 4) {
         loadIndex('indexes/cv-index.md');
         loadIndex('indexes/ml-index.md'); 
+        loadIndex('indexes/mle-index.md');
          
     }
     
@@ -101,6 +102,7 @@ window.addEventListener('load', function () {
     else if (split_path.length == 6) {
         loadIndex('../../../indexes/cv-index.md');
         loadIndex('../../../indexes/ml-index.md');
+        loadIndex('../../../indexes/mle-index.md');
     }
         
 
@@ -108,6 +110,7 @@ window.addEventListener('load', function () {
     else if (split_path.length == 5) {
         loadIndex('../../indexes/cv-index.md');
         loadIndex('../../indexes/ml-index.md');
+        loadIndex('../../indexes/mle-index.md');
     }
 
     else 
