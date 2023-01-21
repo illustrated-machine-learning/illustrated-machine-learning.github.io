@@ -12,7 +12,7 @@ import Todos from './pages/Todos';
 import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
 import * as ML from './pages/MachineLearning';
-
+import { loadIndex } from './utils/navIndex';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -46,6 +46,11 @@ root.render(
     <Footer />
   </>
 );
+
+window.addEventListener('load', function () {
+  loadIndex(process.env.PUBLIC_URL + '/indexes/cv-index.md');
+  loadIndex(process.env.PUBLIC_URL + '/indexes/ml-index.md'); 
+})
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

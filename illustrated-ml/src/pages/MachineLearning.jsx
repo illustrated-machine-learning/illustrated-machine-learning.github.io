@@ -3,32 +3,35 @@ import { NavLink, Outlet, useOutlet } from "react-router-dom"
 
 export function Parent() {
     return Container(
-        <div>
-            <h1>Machine Learning</h1>
-
-            <nav>
-                <NavLink to="categorization">Categorization</NavLink>
-                <NavLink to="ml-sampling-resampling">Sampling and Resampling</NavLink>
-                <NavLink to="bias-variance">Bias/Variance</NavLink>
-                <NavLink to="linear-algorithms">Linear Algorithms</NavLink>
-                <NavLink to="decision-tree">Decision Tree</NavLink>
-                <NavLink to="ensemble">Ensemble</NavLink>
-                <NavLink to="distance-based">Distance based algorithms</NavLink>
-                <NavLink to="optimization">Optimization</NavLink>
-                <NavLink to="loss-functions">Loss functions</NavLink>
-                <NavLink to="metrics">Model Evaluation</NavLink>
-                <NavLink to="clustering">Clustering</NavLink>
-                <NavLink to="dimensionality-reduction">Dimensionality Reduction</NavLink>
-                <NavLink to="tuning">Hyperparameters tuning</NavLink>
-            </nav>
+        <>
             {useOutlet()
                 ? <Outlet />
-                : <object type="image/svg+xml"
-                    data={process.env.PUBLIC_URL + "/Robotics-bro.svg"}
-                    className="full-screen-svg">
-                </object>
+                :
+                <>
+                    <h1>Machine Learning</h1>
+                    <nav>
+                        <NavLink to="categorization">Categorization</NavLink>
+                        <NavLink to="ml-sampling-resampling">Sampling and Resampling</NavLink>
+                        <NavLink to="bias-variance">Bias/Variance</NavLink>
+                        <NavLink to="linear-algorithms">Linear Algorithms</NavLink>
+                        <NavLink to="decision-tree">Decision Tree</NavLink>
+                        <NavLink to="ensemble">Ensemble</NavLink>
+                        <NavLink to="distance-based">Distance based algorithms</NavLink>
+                        <NavLink to="optimization">Optimization</NavLink>
+                        <NavLink to="loss-functions">Loss functions</NavLink>
+                        <NavLink to="metrics">Model Evaluation</NavLink>
+                        <NavLink to="clustering">Clustering</NavLink>
+                        <NavLink to="dimensionality-reduction">Dimensionality Reduction</NavLink>
+                        <NavLink to="tuning">Hyperparameters tuning</NavLink>
+                    </nav>
+                    <object type="image/svg+xml"
+                        data={process.env.PUBLIC_URL + "/Robotics-bro.svg"}
+                        className="full-screen-svg">
+                    </object>
+                </>
+
             }
-        </div>
+        </>
     );
 }
 
@@ -88,16 +91,16 @@ export function Clustering() {
                 </a>
             </div>
 
-            <a name="kmeans" />
+            <a id="kmeans" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/clustering-01.svg"} className="img-content"></object>
 
-            <a name="hierarchical" />
+            <a id="hierarchical" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/clustering-02.svg"} className="img-content mt-50"></object>
 
-            <a name="dbscan" />
+            <a id="dbscan" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/clustering-03.svg"} className="img-content mt-50"></object>
 
-            <a name="validity" />
+            <a id="validity" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/clustering-04.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced'>
@@ -153,16 +156,16 @@ export function DimensionReduction() {
 
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/dim-reduction-01.svg"} className="img-content"></object>
 
-            <a name="pca" />
+            <a id="pca" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/dim-reduction-02.svg"} className="img-content mt-50"></object>
 
-            <a name="ica" />
+            <a id="ica" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/dim-reduction-03.svg"} className="img-content mt-50"></object>
 
-            <a name="lda" />
+            <a id="lda" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/dim-reduction-04.svg"} className="img-content mt-50"></object>
 
-            <a name="tsne" />
+            <a id="tsne" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/dim-reduction-05.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced'>
@@ -191,7 +194,7 @@ export function DistanceBased() {
 
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/distance-based-01.svg"} className="img-content"></object>
 
-            <a name="knn" />
+            <a id="knn" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/distance-based-01.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced'>
@@ -218,19 +221,19 @@ export function Ensemble() {
                 </a>
             </div>
 
-            <a name="category" />
+            <a id="category" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/ensemble-01.svg"} className="img-content"></object>
 
-            <a name="random-forest" />
+            <a id="random-forest" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/ensemble-02.svg"} className="img-content mt-50"></object>
 
-            <a name="adaboost" />
+            <a id="adaboost" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/ensemble-03.svg"} className="img-content mt-50"></object>
 
-            <a name="gbm" />
+            <a id="gbm" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/ensemble-04.svg"} className="img-content mt-50"></object>
 
-            <a name="xgboost" />
+            <a id="xgboost" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/ensemble-05.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced'>
@@ -257,19 +260,19 @@ export function LinearAlgo() {
                 </a>
             </div>
 
-            <a name="linear-regression" />
+            <a id="linear-regression" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/linear-algorithms-01.svg"} className="img-content"></object>
 
-            <a name="regularization" />
+            <a id="regularization" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/linear-algorithms-02.svg"} className="img-content mt-50"></object>
 
-            <a name="logistic-regression" />
+            <a id="logistic-regression" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/linear-algorithms-03.svg"} className="img-content mt-50"></object>
 
-            <a name="support-vector-machines" />
+            <a id="support-vector-machines" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/linear-algorithms-04.svg"} className="img-content mt-50"></object>
 
-            <a name="linear-discriminant-analysis" />
+            <a id="linear-discriminant-analysis" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/linear-algorithms-05.svg"} className="img-content mt-50"></object>
 
         </>
@@ -291,10 +294,10 @@ export function LossFunction() {
 
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/loss-functions-01.svg"} className="img-content"></object>
 
-            <a name="classification" />
+            <a id="classification" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/loss-functions-02.svg"} className="img-content mt-50"></object>
 
-            <a name="regression" />
+            <a id="regression" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/loss-functions-03.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced'>
@@ -323,7 +326,7 @@ export function Metrics() {
 
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/metrics-01.svg"} className="img-content"></object>
 
-            <a name="regression" />
+            <a id="regression" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/metrics-02.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced'>
@@ -350,13 +353,13 @@ export function MLSamplingReSampling() {
                 </a>
             </div>
 
-            <a name="sampling" />
+            <a id="sampling" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/sampling-resampling-01.svg"} className="img-content"></object>
 
-            <a name="resampling" />
+            <a id="resampling" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/sampling-resampling-02.svg"} className="img-content mt-50"></object>
 
-            <a name="under-oversampling" />
+            <a id="under-oversampling" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/sampling-resampling-03.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced'>
@@ -383,31 +386,31 @@ export function Optimization() {
                 </a>
             </div>
 
-            <a name="erm" />
+            <a id="erm" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/optimization-01.svg"} className="img-content"></object>
 
-            <a name="gd" />
+            <a id="gd" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/optimization-02.svg"} className="img-content mt-50"></object>
 
-            <a name="sgd" />
+            <a id="sgd" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/optimization-03.svg"} className="img-content mt-50"></object>
 
-            <a name="mini" />
+            <a id="mini" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/optimization-04.svg"} className="img-content mt-50"></object>
 
-            <a name="momentum" />
+            <a id="momentum" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/optimization-05.svg"} className="img-content mt-50"></object>
 
-            <a name="nesterov-momentum" />
+            <a id="nesterov-momentum" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/optimization-06.svg"} className="img-content mt-50"></object>
 
-            <a name="adagrad" />
+            <a id="adagrad" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/optimization-07.svg"} className="img-content mt-50"></object>
 
-            <a name="RMSProp" />
+            <a id="RMSProp" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/optimization-08.svg"} className="img-content mt-50"></object>
 
-            <a name="adam" />
+            <a id="adam" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/optimization-09.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced'>
@@ -436,7 +439,7 @@ export function Tuning() {
 
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/tuning-01.svg"} className="img-content"></object>
 
-            <a name="sensitivity" />
+            <a id="sensitivity" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/tuning-02.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced'>
