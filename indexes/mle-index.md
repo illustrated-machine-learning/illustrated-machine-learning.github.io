@@ -7,20 +7,19 @@
       3. [Semi-supervised Learning](./pages/machine-learning-engineering/ch-01.html#semi-supervised-learning)
       4. [Reinforcement Learning](./pages/machine-learning-engineering/ch-01.html#reinforcement-learning)
 
-   2. [Data and ML Terminology]
-      1. [Data Used Directly and Indirectly]
-      2. [Raw and Tidy Data]
-      3. [Training and Holdout Sets]
-      4. [Baseline]
-      5. [ML Pipeline]
-      6. [Parameter vs Hyperparameters]
-      7. [Classification vs Regression]
-      8. [Model-based vs Instance-based]
-      9. [Shallow vs Deep Learning]
-      10. [Training vs Scoring]
-      11. [When to use ML]
-      12. [When not to use ML]
-      13. [What is MLE and ML Project Life Cycle]
+   2. [Data and ML Terminology](./pages/machine-learning-engineering/ch-01.html#data-used-directly-and-indirectly)
+      1. [Data Used Directly and Indirectly](./pages/machine-learning-engineering/ch-01.html#data-used-directly-and-indirectly)
+      2. [Raw and Tidy Data](./pages/machine-learning-engineering/ch-01.html#raw-and-tidy-data)
+      3. [Training and Holdout Sets](./pages/machine-learning-engineering/ch-01.html#training-and-holdout-sets)
+      4. [Baseline](./pages/machine-learning-engineering/ch-01.html#baseline)
+      5. [ML Pipeline](./pages/machine-learning-engineering/ch-01.html#machine-learning-pipeline)
+      6. [Parameter vs Hyperparameters](./pages/machine-learning-engineering/ch-01.html#parameters-vs-hyperparameters)
+      7. [Classification vs Regression](./pages/machine-learning-engineering/ch-01.html#classification-vs-regression)
+      8. [Model-based vs Instance-based](./pages/machine-learning-engineering/ch-01.html#model-based-vs-instance-based)
+      9. [Shallow vs Deep Learning](./pages/machine-learning-engineering/ch-01.html#shallow-vs-deep-learning)
+      10. [Training vs Scoring](./pages/machine-learning-engineering/ch-01.html#training-vs-scoring)
+      11. [When to use and not to use ML](./pages/machine-learning-engineering/ch-01.html#when-to-use-and-not-to-use-ml)
+      13. [What is MLE](./pages/machine-learning-engineering/ch-01.html#what-is-mle)
 
 2. [Before the Project Starts]
    1. [Prioritization of Machine Learning Projects and Team Composition]
