@@ -21,16 +21,16 @@
       11. [When to use and not to use ML](./pages/machine-learning-engineering/ch-01.html#when-to-use-and-not-to-use-ml)
       13. [What is MLE](./pages/machine-learning-engineering/ch-01.html#what-is-mle)
 
-2. [Before the Project Starts]
-   1. [Prioritization of Machine Learning Projects and Team Composition]
-      1. [Impact of Machine Learning]
-      2. [Cost of Machine Learning]
-      3. [Team Composition]
-   2. [Estimating Complexity of a ML Project]
-      1. [The Unknowns]
-      2. [Simplifying the Problem]
-      3. [Nonlinear Progress]
-   3. [Defining the Goal of a ML Project]
-      1. [What a Model can do]
-      2. [Properties of a Successful Model]
-   4. [Why Machine Learning Projects Fail]
+2. [Before the Project Starts](./pages/machine-learning-engineering/ch-02.html#prioritization-of-ml-projects-and-team-composition)
+   1. [Prioritization of Machine Learning Projects and Team Composition](./pages/machine-learning-engineering/ch-02.html#prioritization-of-ml-projects-and-team-composition)
+      1. [Impact of Machine Learning](./pages/machine-learning-engineering/ch-02.html#prioritization-of-ml-projects-and-team-composition)
+      2. [Cost of Machine Learning](./pages/machine-learning-engineering/ch-02.html#prioritization-of-ml-projects-and-team-composition)
+      3. [Team Composition](./pages/machine-learning-engineering/ch-02.html#prioritization-of-ml-projects-and-team-composition)
+   2. [Estimating Complexity of a ML Project](./pages/machine-learning-engineering/ch-02.html#estimating-complexity-of-a-ml-project)
+      1. [The Unknowns](./pages/machine-learning-engineering/ch-02.html#estimating-complexity-of-a-ml-project)
+      2. [Simplifying the Problem](./pages/machine-learning-engineering/ch-02.html#estimating-complexity-of-a-ml-project)
+      3. [Nonlinear Progress](./pages/machine-learning-engineering/ch-02.html#estimating-complexity-of-a-ml-project)
+   3. [Defining the Goal of a ML Project](./pages/machine-learning-engineering/ch-02.html#defining-the-goal-of-a-ml-project)
+      1. [What a Model can do](./pages/machine-learning-engineering/ch-02.html#defining-the-goal-of-a-ml-project)
+      2. [Properties of a Successful Model](./pages/machine-learning-engineering/ch-02.html#defining-the-goal-of-a-ml-project)
+   4. [Why Machine Learning Projects Fail](./pages/machine-learning-engineering/ch-02.html#why-ml-projects-fail)
