@@ -24,7 +24,7 @@ export default function Navbar() {
                 <HashLink className="menu__item" to={`/machine-learning/ml-sampling-resampling#under-oversampling`}>OverSampling</HashLink>
             </li>
             <li>
-                <Link className="menu__item" to={`/computer-vision`}>Computer Vision</Link>
+                <Link className="menu__item" to={`/projective-geometry`}>Projective Geometry</Link>
             </li>
             <li>
                 <Link className="menu__item" to={`/credits`}>Credits</Link>
