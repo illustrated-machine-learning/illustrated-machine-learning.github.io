@@ -1,5 +1,5 @@
 import Container from '../components/Container';
-import { NavLink, Outlet, useOutlet } from "react-router-dom"
+import { Outlet, useOutlet } from "react-router-dom"
 
 export function Parent() {
     return Container(
@@ -9,21 +9,6 @@ export function Parent() {
                 :
                 <>
                     <h1>Machine Learning</h1>
-                    <nav>
-                        <NavLink to="categorization">Categorization</NavLink>
-                        <NavLink to="ml-sampling-resampling">Sampling and Resampling</NavLink>
-                        <NavLink to="bias-variance">Bias/Variance</NavLink>
-                        <NavLink to="linear-algorithms">Linear Algorithms</NavLink>
-                        <NavLink to="decision-tree">Decision Tree</NavLink>
-                        <NavLink to="ensemble">Ensemble</NavLink>
-                        <NavLink to="distance-based">Distance based algorithms</NavLink>
-                        <NavLink to="optimization">Optimization</NavLink>
-                        <NavLink to="loss-functions">Loss functions</NavLink>
-                        <NavLink to="metrics">Model Evaluation</NavLink>
-                        <NavLink to="clustering">Clustering</NavLink>
-                        <NavLink to="dimensionality-reduction">Dimensionality Reduction</NavLink>
-                        <NavLink to="tuning">Hyperparameters tuning</NavLink>
-                    </nav>
                     <object type="image/svg+xml"
                         data={process.env.PUBLIC_URL + "/Robotics-bro.svg"}
                         className="full-screen-svg">

@@ -75,3 +75,29 @@
 .menu__item:hover {
     background-color: #CFD8DC;
 }
+
+/* ------------ DROPDOWN ------- */
+
+.collapsible {
+    /*background-color: #777;*/
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px 24px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: monospace;
+}
+  
+.content {
+    padding: 0 0 20% 5%;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.current-page {
+    background-color: #e0e0e0;
+}
