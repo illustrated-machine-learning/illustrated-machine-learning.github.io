@@ -12,6 +12,7 @@ import Todos from './pages/Todos';
 import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
 import * as ML from './pages/MachineLearning';
+import * as PJ from './pages/ProjectiveGeometry';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,6 +35,12 @@ root.render(
           <Route path='clustering' element={<ML.Clustering />} />
           <Route path='dimensionality-reduction' element={<ML.DimensionReduction />} />
           <Route path='tuning' element={<ML.Tuning />} />
+        </Route>
+        <Route path="projective-geometry" element={<PJ.Parent />} >
+          <Route path='introduction' element={<PJ.Lecture01 />} />
+          <Route path='image-formation' element={<PJ.Lecture02 />} />
+          <Route path='structure-from-motion' element={<PJ.Lecture03 />} />
+          <Route path='stereo-reconstruction' element={<PJ.Lecture04 />} />
         </Route>
         <Route path="credits" element={<Credits />} />
         <Route path="news" element={<News />} />
