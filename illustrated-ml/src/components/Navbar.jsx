@@ -256,6 +256,9 @@ export default function Navbar() {
                     </div>
                 </li>
                 <li>
+                  <Link className="menu__item" to={`/machine-learning-engineering`}>Machine Learning Engineering</Link>
+                </li>
+                <li>
                     <Link className="menu__item" to={`/projective-geometry`}>Projective Geometry</Link>
                 </li>
                 <li>

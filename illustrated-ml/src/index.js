@@ -12,6 +12,7 @@ import Todos from './pages/Todos';
 import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
 import * as ML from './pages/MachineLearning';
+import * as MLE from './pages/MachineLearningEngineering';
 import * as PJ from './pages/ProjectiveGeometry';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -42,6 +43,11 @@ root.render(
           <Route path='structure-from-motion' element={<PJ.Lecture03 />} />
           <Route path='stereo-reconstruction' element={<PJ.Lecture04 />} />
         </Route>
+        <Route path="machine-learning-engineering" element={<MLE.Parent />} >
+          <Route path='introduction' element={<MLE.Chapter01 />} />
+          <Route path='before-the-project-starts' element={<MLE.Chapter02 />} />
+        </Route>
+
         <Route path="credits" element={<Credits />} />
         <Route path="news" element={<News />} />
         <Route path="references" element={<References />} />
