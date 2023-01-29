@@ -298,113 +298,113 @@ export default function Navbar() {
                         <div className='content' style={{ display: 'block' }}>
                             <ol>
                                 <li>
-                                    <Link className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01`}>Introduction</Link>
+                                    <Link className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction`}>Introduction</Link>
                                 </li>
                                 <ol>
                                     <li>
-                                        <Link className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01`}>Types of Learning</Link>
+                                        <Link className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction`}>Types of Learning</Link>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#supervised-learning`}>Supervised Learning</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#supervised-learning`}>Supervised Learning</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#unsupervised-learning`}>Unsupervised Learning</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#unsupervised-learning`}>Unsupervised Learning</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#semi-supervised-learning`}>Semi-supervised Learning</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#semi-supervised-learning`}>Semi-supervised Learning</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#reinforcement-learning`}>Reinforcement Learning</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#reinforcement-learning`}>Reinforcement Learning</HashLink>
                                         </li>
                                     </ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#data-used-directly-and-indirectly`}>Data and ML Terminology</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#data-used-directly-and-indirectly`}>Data and ML Terminology</HashLink>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#data-used-directly-and-indirectly`}>Data Used Directly and Indirectly</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#data-used-directly-and-indirectly`}>Data Used Directly and Indirectly</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#raw-and-tidy-data`}>Raw and Tidy Data</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#raw-and-tidy-data`}>Raw and Tidy Data</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#training-and-holdout-sets`}>Training and Holdout Sets</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#training-and-holdout-sets`}>Training and Holdout Sets</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#baseline`}>Baseline</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#baseline`}>Baseline</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#machine-learning-pipeline`}>ML Pipeline</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#machine-learning-pipeline`}>ML Pipeline</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#parameters-vs-hyperparameters`}>Parameter vs Hyperparameters</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#parameters-vs-hyperparameters`}>Parameter vs Hyperparameters</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#classification-vs-regression`}>Classification vs Regression</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#classification-vs-regression`}>Classification vs Regression</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#model-based-vs-instance-based`}>Model-based vs Instance-based</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#model-based-vs-instance-based`}>Model-based vs Instance-based</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#shallow-vs-deep-learning`}>Shallow vs Deep Learning</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#shallow-vs-deep-learning`}>Shallow vs Deep Learning</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#training-vs-scoring`}>Training vs Scoring</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#training-vs-scoring`}>Training vs Scoring</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#when-to-use-and-not-to-use-ml`}>When to use and not to use ML</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#when-to-use-and-not-to-use-ml`}>When to use and not to use ML</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-01#what-is-mle`}>What is MLE</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/introduction#what-is-mle`}>What is MLE</HashLink>
                                         </li>
                                     </ol>
                                 </ol>
                                 <li>
-                                    <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#prioritization-of-ml-projects-and-team-composition`}>Before the Project Starts</HashLink>
+                                    <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#prioritization-of-ml-projects-and-team-composition`}>Before the Project Starts</HashLink>
                                 </li>
                                 <ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#prioritization-of-ml-projects-and-team-composition`}>Prioritization of Machine Learning Projects and Team Composition</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#prioritization-of-ml-projects-and-team-composition`}>Prioritization of Machine Learning Projects and Team Composition</HashLink>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#prioritization-of-ml-projects-and-team-composition`}>Impact of Machine Learning</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#prioritization-of-ml-projects-and-team-composition`}>Impact of Machine Learning</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#prioritization-of-ml-projects-and-team-composition`}>Cost of Machine Learning</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#prioritization-of-ml-projects-and-team-composition`}>Cost of Machine Learning</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#prioritization-of-ml-projects-and-team-composition`}>Team Composition</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#prioritization-of-ml-projects-and-team-composition`}>Team Composition</HashLink>
                                         </li>
                                     </ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#estimating-complexity-of-a-ml-project`}>Estimating Complexity of a ML Project</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#estimating-complexity-of-a-ml-project`}>Estimating Complexity of a ML Project</HashLink>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#estimating-complexity-of-a-ml-project`}>The Unknowns</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#estimating-complexity-of-a-ml-project`}>The Unknowns</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#estimating-complexity-of-a-ml-project`}>Simplifying the Problem</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#estimating-complexity-of-a-ml-project`}>Simplifying the Problem</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#estimating-complexity-of-a-ml-project`}>Nonlinear Progress</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#estimating-complexity-of-a-ml-project`}>Nonlinear Progress</HashLink>
                                         </li>
                                     </ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#defining-the-goal-of-a-ml-project`}>Defining the Goal of a ML Project</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#defining-the-goal-of-a-ml-project`}>Defining the Goal of a ML Project</HashLink>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#defining-the-goal-of-a-ml-project`}>What a Model can do</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#defining-the-goal-of-a-ml-project`}>What a Model can do</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#defining-the-goal-of-a-ml-project`}>Properties of a Successful Model</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#defining-the-goal-of-a-ml-project`}>Properties of a Successful Model</HashLink>
                                         </li>
                                     </ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/ch-02#why-ml-projects-fail`}>Why Machine Learning Projects Fail</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#why-ml-projects-fail`}>Why Machine Learning Projects Fail</HashLink>
                                     </li>
                                 </ol>
                             </ol>
@@ -417,149 +417,149 @@ export default function Navbar() {
                         <div className='content' style={{ display: 'block' }}>
                             <ol>
                                 <li>
-                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/lecture-01`}>Lecture 1</Link>
+                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/introduction`}>Introduction</Link>
                                 </li>
                                 <ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-01#organization`}>Uniform</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/introduction#organization`}>Organization</HashLink>
                                     </li>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-01#introduction`}>Reservoir</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/introduction#introduction`}>Introduction</HashLink>
                                     </li>
                                 </ol>
                                 <li>
-                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/lecture-02`}>Lecture 2</Link>
+                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/image-formation`}>Image Formation</Link>
                                 </li>
                                 <ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#2dprimitive`}>Primitives and transformations</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#2dprimitive`}>Primitives and transformations</HashLink>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#2dprimitive`}>2D primitives</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#2dprimitive`}>2D primitives</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#3dprimitive`}>3D primitives</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#3dprimitive`}>3D primitives</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#2dtransform`}>2D transformations</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#2dtransform`}>2D transformations</HashLink>
                                         </li>
                                     </ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#pinhole`}>Geometric image formation</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#pinhole`}>Geometric image formation</HashLink>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#pinhole`}>Pinhole camera</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#pinhole`}>Pinhole camera</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#projection`}>Projection models</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#projection`}>Projection models</HashLink>
                                         </li>
                                         <ol>
                                             <li>
-                                                <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#perspective#orthographic`}>Orthographic projection</HashLink>
+                                                <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#perspective#orthographic`}>Orthographic projection</HashLink>
                                             </li>
                                             <li>
-                                                <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#perspective`}>Perspective projection</HashLink>
+                                                <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#perspective`}>Perspective projection</HashLink>
                                             </li>
                                         </ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#changing-transformation`}>Changing transformation</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#changing-transformation`}>Changing transformation</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#distortion`}>Lens distortion</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#distortion`}>Lens distortion</HashLink>
                                         </li>
                                     </ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#rendering`}>Photometric image formation</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#rendering`}>Photometric image formation</HashLink>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#rendering`}>Rendering</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#rendering`}>Rendering</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#optics`}>Optics</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#optics`}>Optics</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#thin-lens`}>Thin lens model</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#thin-lens`}>Thin lens model</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#dof`}>Depth of field</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#dof`}>Depth of field</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#aberration-vignetting`}>Aberration & vignetting</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#aberration-vignetting`}>Aberration & vignetting</HashLink>
                                         </li>
                                     </ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#image-sensing`}>Image sensing</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/image-formation#image-sensing`}>Image sensing</HashLink>
                                     </li>
                                 </ol>
                                 <li>
-                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/lecture-03`}>Lecture 3</Link>
+                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/structure-from-motion`}>Structure from Motion</Link>
                                 </li>
                                 <ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#preliminaries`}>Preliminaries</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/structure-from-motion#preliminaries`}>Preliminaries</HashLink>
                                     </li>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#epipolar-geometry`}>Two Frame Structure from Motion</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/structure-from-motion#epipolar-geometry`}>Two Frame Structure from Motion</HashLink>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#epipolar-geometry`}>Epipolar Geometry</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/structure-from-motion#epipolar-geometry`}>Epipolar Geometry</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#epipolar-geometry-math`}>Math behind EG</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/structure-from-motion#epipolar-geometry-math`}>Math behind EG</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03s#triangularization`}>Triangularization</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/structure-from-motions#triangularization`}>Triangularization</HashLink>
                                         </li>
                                     </ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#factorization`}>Factorization</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/structure-from-motion#factorization`}>Factorization</HashLink>
                                     </li>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#bundle-adjustment`}>Bundle Adjustment</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/structure-from-motion#bundle-adjustment`}>Bundle Adjustment</HashLink>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#incremental-sfm`}>Incremental SfM</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/structure-from-motion#incremental-sfm`}>Incremental SfM</HashLink>
                                         </li>
                                     </ol>
                                 </ol>
                                 <li>
-                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/lecture-04`}>Lecture 4</Link>
+                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/stereo-reconstruction`}>Stereo Reconstruction</Link>
                                 </li>
                                 <ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#stereo-matching`}>Preliminaries</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/stereo-reconstruction#stereo-matching`}>Preliminaries</HashLink>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#stereo-matching`}>Stereo Matching</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/stereo-reconstruction#stereo-matching`}>Stereo Matching</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#epipolar-geometry`}>Epipolar Geometry</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/stereo-reconstruction#epipolar-geometry`}>Epipolar Geometry</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#rectification`}>Image Rectification</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/stereo-reconstruction#rectification`}>Image Rectification</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#disparity`}>Disparity</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/stereo-reconstruction#disparity`}>Disparity</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#xgboost`}>XGBoost</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/stereo-reconstruction#xgboost`}>XGBoost</HashLink>
                                         </li>
                                     </ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#correspondence-ambiguity`}>Block Matching</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/stereo-reconstruction#correspondence-ambiguity`}>Block Matching</HashLink>
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#correspondence-ambiguity`}>Correspondence Ambiguity</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/stereo-reconstruction#correspondence-ambiguity`}>Correspondence Ambiguity</HashLink>
                                         </li>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#correspondence-ambiguity`}>Block Matching</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/stereo-reconstruction#correspondence-ambiguity`}>Block Matching</HashLink>
                                         </li>
                                     </ol>
                                 </ol>
