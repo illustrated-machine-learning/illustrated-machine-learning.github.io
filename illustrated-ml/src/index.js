@@ -18,43 +18,45 @@ import * as PJ from './pages/ProjectiveGeometry';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route index path="/" element={<Home />} />
-        <Route path="machine-learning" element={<ML.Parent />} >
-          <Route path='categorization' element={<ML.Categorization />} />
-          <Route path='ml-sampling-resampling' element={<ML.MLSamplingReSampling />} />
-          <Route path='bias-variance' element={<ML.BiasVariance />} />
-          <Route path='linear-algorithms' element={<ML.LinearAlgo />} />
-          <Route path='decision-tree' element={<ML.DecisionTree />} />
-          <Route path='ensemble' element={<ML.Ensemble />} />
-          <Route path='distance-based' element={<ML.DistanceBased />} />
-          <Route path='optimization' element={<ML.Optimization />} />
-          <Route path='loss-functions' element={<ML.LossFunction />} />
-          <Route path='metrics' element={<ML.Metrics />} />
-          <Route path='clustering' element={<ML.Clustering />} />
-          <Route path='dimensionality-reduction' element={<ML.DimensionReduction />} />
-          <Route path='tuning' element={<ML.Tuning />} />
-        </Route>
-        <Route path="projective-geometry" element={<PJ.Parent />} >
-          <Route path='introduction' element={<PJ.Lecture01 />} />
-          <Route path='image-formation' element={<PJ.Lecture02 />} />
-          <Route path='structure-from-motion' element={<PJ.Lecture03 />} />
-          <Route path='stereo-reconstruction' element={<PJ.Lecture04 />} />
-        </Route>
-        <Route path="machine-learning-engineering" element={<MLE.Parent />} >
-          <Route path='introduction' element={<MLE.Chapter01 />} />
-          <Route path='before-the-project-starts' element={<MLE.Chapter02 />} />
-        </Route>
+    <div id='content-root'>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route index path="/" element={<Home />} />
+          <Route path="machine-learning" element={<ML.Parent />} >
+            <Route path='categorization' element={<ML.Categorization />} />
+            <Route path='ml-sampling-resampling' element={<ML.MLSamplingReSampling />} />
+            <Route path='bias-variance' element={<ML.BiasVariance />} />
+            <Route path='linear-algorithms' element={<ML.LinearAlgo />} />
+            <Route path='decision-tree' element={<ML.DecisionTree />} />
+            <Route path='ensemble' element={<ML.Ensemble />} />
+            <Route path='distance-based' element={<ML.DistanceBased />} />
+            <Route path='optimization' element={<ML.Optimization />} />
+            <Route path='loss-functions' element={<ML.LossFunction />} />
+            <Route path='metrics' element={<ML.Metrics />} />
+            <Route path='clustering' element={<ML.Clustering />} />
+            <Route path='dimensionality-reduction' element={<ML.DimensionReduction />} />
+            <Route path='tuning' element={<ML.Tuning />} />
+          </Route>
+          <Route path="projective-geometry" element={<PJ.Parent />} >
+            <Route path='introduction' element={<PJ.Lecture01 />} />
+            <Route path='image-formation' element={<PJ.Lecture02 />} />
+            <Route path='structure-from-motion' element={<PJ.Lecture03 />} />
+            <Route path='stereo-reconstruction' element={<PJ.Lecture04 />} />
+          </Route>
+          <Route path="machine-learning-engineering" element={<MLE.Parent />} >
+            <Route path='introduction' element={<MLE.Chapter01 />} />
+            <Route path='before-the-project-starts' element={<MLE.Chapter02 />} />
+          </Route>
 
-        <Route path="credits" element={<Credits />} />
-        <Route path="news" element={<News />} />
-        <Route path="references" element={<References />} />
-        <Route path="todos" element={<Todos />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </BrowserRouter>
+          <Route path="credits" element={<Credits />} />
+          <Route path="news" element={<News />} />
+          <Route path="references" element={<References />} />
+          <Route path="todos" element={<Todos />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
     <Footer />
   </>
 );

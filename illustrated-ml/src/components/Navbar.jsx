@@ -1,9 +1,16 @@
 import './Navbar.css';
-import { Link } from "react-router-dom";
+import * as React from 'react';
+import { Link, useLocation } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import { useState } from 'react';
 
 export default function Navbar() {
+
+    let location = useLocation();
+
+    React.useEffect(() => {
+      document.getElementById("menu__toggle").checked = false;
+    }, [location]);
 
     const [mlCollapsed, setMlCollapsed] = useState(true)
     const [pgCollapsed, setPgCollapsed] = useState(true)
