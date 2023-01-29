@@ -27,7 +27,7 @@ export function Parent() {
 export function Chapter01() {
     return Container(
         <>
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
@@ -84,7 +84,7 @@ export function Chapter01() {
             <a id="what-is-mle" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch01-what-is-mle.svg"} className="img-content mt-50"></object>
 
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
@@ -99,7 +99,7 @@ export function Chapter01() {
 export function Chapter02() {
     return Container(
         <>
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow" href="introduction">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
@@ -122,7 +122,7 @@ export function Chapter02() {
 
 
 
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow" href="introduction">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>

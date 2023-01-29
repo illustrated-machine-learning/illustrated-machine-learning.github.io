@@ -75,6 +75,14 @@
     background-color: #CFD8DC;
 }
 
+.hamburger-menu span {
+    top: 8px;
+}
+
+.hamburger-menu li {
+    padding: 0 !important;
+}
+
 /* ------------ DROPDOWN ------- */
 
 .collapsible {

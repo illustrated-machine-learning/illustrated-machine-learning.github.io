@@ -31,27 +31,14 @@ export default function Credits() {
                         <a href="https://www.linkedin.com/in/francescodisalvo-pa/">LinkedIn</a>,
                         <a href="https://francescodisalvo05.github.io/">Website</a>]
                     </li>
-                    <li>Matteo Bernabito 
-                        [<a href="https://github.com/berna1995">Github</a>,
-                        <a href="https://www.linkedin.com/in/matteo-bernabito-268255215/">LinkedIn</a>,
-                        <a href="https://www.bernabito.it/">Website</a>]
-                    </li>
                     <li>Andrea Bozzelli
                         [<a href="https://github.com/bozzelliandrea">Github</a>,
                         <a href="https://www.linkedin.com/in/andrea-bozzelli/">LinkedIn</a>]
                     </li>
-                </ul>
-
-                <h3>Reviewers</h3>
-
-                <ul className="credits-list">
-                    <li>Gabriele Inzerillo
-                        [<a href="https://github.com/ThePiromaximus">Github</a>,
-                        <a href="https://www.linkedin.com/in/gabriele-inzerillo-6411b5147/">LinkedIn</a>]
-                    </li>
-                    <li>Gianluca La Malfa
-                        [<a href="https://github.com/GianlucaLM-1">Github</a>,
-                        <a href="https://www.linkedin.com/in/gianluca-la-malfa-a748ba1b8/">LinkedIn</a>]
+                    <li>Matteo Bernabito 
+                        [<a href="https://github.com/berna1995">Github</a>,
+                        <a href="https://www.linkedin.com/in/matteo-bernabito-268255215/">LinkedIn</a>,
+                        <a href="https://www.bernabito.it/">Website</a>]
                     </li>
                 </ul>
 

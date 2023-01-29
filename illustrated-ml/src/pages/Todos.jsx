@@ -16,11 +16,11 @@ export default function Todos() {
                     <li><del>Re-order sidebar &gt; ML as second element</del></li>
                     <li><del>Add left/right buttons at the beginning and at the end of a page</del></li>
                     <li><del>Add a new page in which we report every update on the website</del></li>
+                    <li><del>Increase the touch/target visible area</del></li>
+                    <li><del>Build a webapp (in progress)</del></li>
                     <li>Add switch for the font-style (sketchy / normal)</li>
                     <li>Leave the sidebar opened for desktop</li>
                     <li>Improve responsiveness</li>
-                    <li>Increase the touch/target visible area</li>
-                    <li>Build a webapp (in progress)</li>
                     <li>Add searchbar</li>
                 </ul>
 

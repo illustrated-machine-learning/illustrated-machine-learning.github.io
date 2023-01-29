@@ -29,7 +29,7 @@ export function Parent() {
 export function Lecture01() {
     return Container(
         <>
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
@@ -45,7 +45,7 @@ export function Lecture01() {
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l01-intro.svg"} className="img-content mt-50"></object>
 
 
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
@@ -60,7 +60,7 @@ export function Lecture01() {
 export function Lecture02() {
     return Container(
         <>
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow" href="introduction">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
@@ -114,7 +114,7 @@ export function Lecture02() {
             <a id="image-sensing" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l02-sensing-01.svg"} className="img-content mt-50"></object>
 
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow" href="introduction">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
@@ -129,7 +129,7 @@ export function Lecture02() {
 export function Lecture03() {
     return Container(
         <>
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow" href="image-formation">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
@@ -161,7 +161,7 @@ export function Lecture03() {
 
 
 
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow" href="image-formation">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
@@ -176,7 +176,7 @@ export function Lecture03() {
 export function Lecture04() {
     return Container(
         <>
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow" href="structure-from-motion">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
@@ -204,7 +204,7 @@ export function Lecture04() {
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l04-block-matching-02.svg"} className="img-content mt-50"></object>
 
 
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
             <a className="a-arrow" href="structure-from-motion">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
