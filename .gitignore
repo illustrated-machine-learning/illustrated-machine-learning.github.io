@@ -2,7 +2,7 @@
 pages/.DS_Store
 img/.DS_Store
 .DS_Store
-
+build/
 # Logs
 logs
 *.log
