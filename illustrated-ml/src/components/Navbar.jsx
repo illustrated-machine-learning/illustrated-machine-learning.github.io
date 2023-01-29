@@ -3,9 +3,10 @@ import * as React from 'react';
 import { Link, useLocation } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import { useState } from 'react';
+import usePageTracking from '../hooks/usePageTracking';
 
 export default function Navbar() {
-
+    usePageTracking();
     let location = useLocation();
 
     React.useEffect(() => {
