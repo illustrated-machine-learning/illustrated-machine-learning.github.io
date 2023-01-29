@@ -5,9 +5,48 @@ import { useState } from 'react';
 
 export default function Navbar() {
 
-    const [mlCollapsed, setMlCollapsed] = useState(false)
+    const [mlCollapsed, setMlCollapsed] = useState(true)
+    const [pgCollapsed, setPgCollapsed] = useState(true)
+    const [mleCollapsed, setmleCollapsed] = useState(true)
 
-    const toggleML = () => setMlCollapsed(!mlCollapsed);
+    const toggleML = () => {
+
+        if (mlCollapsed && !pgCollapsed) {
+            setPgCollapsed(true)
+        }
+
+        if (mlCollapsed && !mleCollapsed) {
+            setmleCollapsed(true);
+        }
+
+        setMlCollapsed(!mlCollapsed)
+    };
+
+    const toggleMLE = () => {
+
+        if (mleCollapsed && !mlCollapsed) {
+            setMlCollapsed(true)
+        }
+
+        if (mleCollapsed && !pgCollapsed) {
+            setPgCollapsed(true);
+        }
+
+        setmleCollapsed(!mleCollapsed)
+    };
+
+    const togglePG = () => {
+
+        if (pgCollapsed && !mlCollapsed) {
+            setMlCollapsed(true)
+        }
+
+        if (pgCollapsed && !mleCollapsed) {
+            setmleCollapsed(true);
+        }
+
+        setPgCollapsed(!pgCollapsed)
+    };
 
     return (
         <div>
@@ -22,8 +61,8 @@ export default function Navbar() {
                 </li>
                 <li>
                     <div>
-                        <button class="menu__item collapsible" onClick={toggleML}> Machine Learning {mlCollapsed ? "▼" : "►"}</button>
-                        {mlCollapsed === true &&
+                        <button class="menu__item collapsible" onClick={toggleML}>Machine Learning {mlCollapsed ? "▼" : "►"}</button>
+                        {mlCollapsed === false &&
                             <div className='content' style={{ display: 'block' }}>
                                 <ol>
                                     <li>
@@ -256,11 +295,164 @@ export default function Navbar() {
                     </div>
                 </li>
                 <li>
-                  <Link className="menu__item" to={`/machine-learning-engineering`}>Machine Learning Engineering</Link>
+                    <Link className="menu__item" to={`/machine-learning-engineering`}>Machine Learning Engineering</Link>
                 </li>
-                <li>
-                    <Link className="menu__item" to={`/projective-geometry`}>Projective Geometry</Link>
-                </li>
+                <div>
+                    <button class="menu__item collapsible" onClick={togglePG}>Projective Geometry {pgCollapsed ? "▼" : "►"}</button>
+                    {pgCollapsed === false &&
+                        <div className='content' style={{ display: 'block' }}>
+                            <ol>
+                                <li>
+                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/lecture-01`}>Lecture 1</Link>
+                                </li>
+                                <ol>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-01#organization`}>Uniform</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-01#introduction`}>Reservoir</HashLink>
+                                    </li>
+                                </ol>
+                                <li>
+                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/lecture-02`}>Lecture 2</Link>
+                                </li>
+                                <ol>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#2dprimitive`}>Primitives and transformations</HashLink>
+                                    </li>
+                                    <ol>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#2dprimitive`}>2D primitives</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#3dprimitive`}>3D primitives</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#2dtransform`}>2D transformations</HashLink>
+                                        </li>
+                                    </ol>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#pinhole`}>Geometric image formation</HashLink>
+                                    </li>
+                                    <ol>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#pinhole`}>Pinhole camera</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#projection`}>Projection models</HashLink>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#perspective#orthographic`}>Orthographic projection</HashLink>
+                                            </li>
+                                            <li>
+                                                <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#perspective`}>Perspective projection</HashLink>
+                                            </li>
+                                        </ol>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#changing-transformation`}>Changing transformation</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#distortion`}>Lens distortion</HashLink>
+                                        </li>
+                                    </ol>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#rendering`}>Photometric image formation</HashLink>
+                                    </li>
+                                    <ol>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#rendering`}>Rendering</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#optics`}>Optics</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#thin-lens`}>Thin lens model</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#dof`}>Depth of field</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#aberration-vignetting`}>Aberration & vignetting</HashLink>
+                                        </li>
+                                    </ol>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-02#image-sensing`}>Image sensing</HashLink>
+                                    </li>
+                                </ol>
+                                <li>
+                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/lecture-03`}>Lecture 3</Link>
+                                </li>
+                                <ol>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#preliminaries`}>Preliminaries</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#epipolar-geometry`}>Two Frame Structure from Motion</HashLink>
+                                    </li>
+                                    <ol>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#epipolar-geometry`}>Epipolar Geometry</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#epipolar-geometry-math`}>Math behind EG</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03s#triangularization`}>Triangularization</HashLink>
+                                        </li>
+                                    </ol>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#factorization`}>Factorization</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#bundle-adjustment`}>Bundle Adjustment</HashLink>
+                                    </li>
+                                    <ol>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-03#incremental-sfm`}>Incremental SfM</HashLink>
+                                        </li>
+                                    </ol>
+                                </ol>
+                                <li>
+                                    <Link className="menu__item menu__item__list" to={`/projective-geometry/lecture-04`}>Lecture 4</Link>
+                                </li>
+                                <ol>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#stereo-matching`}>Preliminaries</HashLink>
+                                    </li>
+                                    <ol>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#stereo-matching`}>Stereo Matching</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#epipolar-geometry`}>Epipolar Geometry</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#rectification`}>Image Rectification</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#disparity`}>Disparity</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#xgboost`}>XGBoost</HashLink>
+                                        </li>
+                                    </ol>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#correspondence-ambiguity`}>Block Matching</HashLink>
+                                    </li>
+                                    <ol>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#correspondence-ambiguity`}>Correspondence Ambiguity</HashLink>
+                                        </li>
+                                        <li>
+                                            <HashLink className="menu__item menu__item__list" to={`/projective-geometry/lecture-04#correspondence-ambiguity`}>Block Matching</HashLink>
+                                        </li>
+                                    </ol>
+                                </ol>
+                            </ol>
+                        </div>
+                    }
+                </div>
                 <li>
                     <Link className="menu__item" to={`/credits`}>Credits</Link>
                 </li>
