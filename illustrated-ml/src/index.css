@@ -2,9 +2,51 @@
                   COMMON CSS CLASSES AND MEDIA QUERIES
 **************************************************************************/
 
+html, body {
+    height: 100%;
+}
+
 body {
   margin: 0;
   font-family: monospace !important;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#content-root {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.container {
+    margin: 5vh 0;
+    text-align: center;
+}
+
+.text-container {
+    text-align: left;
+    width: 80vw;
+    margin: 0 0 0 0;
+}
+
+
+.text-link {
+    color:black;
+}
+
+.container-github {
+    margin-top: 2vmin;
+    text-align: center;
 }
 
 /* ------------------ MEDIA QUERIES ------------------ */
