@@ -68,7 +68,7 @@ export default function Navbar() {
                     <Link className="menu__item current-page" to={`/`}>Home</Link>
                 </li>
                 <div>
-                    <button class="menu__item collapsible" onClick={toggleML}>Machine Learning {mlCollapsed ? "▼" : "►"}</button>
+                    <button className="menu__item collapsible" onClick={toggleML}>Machine Learning {mlCollapsed ? "▼" : "►"}</button>
                     {mlCollapsed === false &&
                         <div className='content' style={{ display: 'block' }}>
                             <ol>
@@ -301,7 +301,7 @@ export default function Navbar() {
                     }
                 </div>
                 <div>
-                    <button class="menu__item collapsible" onClick={toggleMLE}>Machine Learning Engineering {mleCollapsed ? "▼" : "►"}</button>
+                    <button className="menu__item collapsible" onClick={toggleMLE}>Machine Learning Engineering {mleCollapsed ? "▼" : "►"}</button>
                     {mleCollapsed === false &&
                         <div className='content' style={{ display: 'block' }}>
                             <ol>
@@ -420,7 +420,7 @@ export default function Navbar() {
                     }
                 </div>
                 <div>
-                    <button class="menu__item collapsible" onClick={togglePG}>Projective Geometry {pgCollapsed ? "▼" : "►"}</button>
+                    <button className="menu__item collapsible" onClick={togglePG}>Projective Geometry {pgCollapsed ? "▼" : "►"}</button>
                     {pgCollapsed === false &&
                         <div className='content' style={{ display: 'block' }}>
                             <ol>
