@@ -2,7 +2,7 @@
   "name": "illustrated-ml",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://illustrated-machine-learning.github.io/illustrated-machine-learning/#",
+  "homepage": "https://illustrated-machine-learning.github.io/#",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
