@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="img/banner.png" >
+    <img src="public/img/banner.png" >
 </p>
 
 Welcome to our website, where **we strive to make the complex world of Machine Learning more approachable through clear and concise illustrations**. Our goal is to provide a visual aid for **students**, **professionals**, and anyone preparing for a **technical interview** to better understand the underlying concepts of Machine Learning. 
