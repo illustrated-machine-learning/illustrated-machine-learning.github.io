@@ -23,11 +23,11 @@ export function Parent() {
 export function BiasVariance() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="ml-sampling-resampling.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="ml-sampling-resampling">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="linear-algorithms.html">
+                <a className="a-arrow" href="linear-algorithms">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -35,11 +35,11 @@ export function BiasVariance() {
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/bias-variance-01.svg"} className="img-content"></object>
 
 
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="ml-sampling-resampling.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="ml-sampling-resampling">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="linear-algorithms.html">
+                <a className="a-arrow" href="linear-algorithms">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -50,11 +50,11 @@ export function BiasVariance() {
 export function Categorization() {
     return Container(
         <>
-            <div className='flex-row spaced'>
+            <div className='flex-row spaced margin-tb-30'>
                 <a className="a-arrow">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow arrow-disabled" />
                 </a>
-                <a className="a-arrow" href="ml-sampling-resampling.html">
+                <a className="a-arrow" href="ml-sampling-resampling">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -67,11 +67,11 @@ export function Categorization() {
 export function Clustering() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="metrics.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="metrics">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="dimensionality-reduction.html">
+                <a className="a-arrow" href="dimensionality-reduction">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -88,11 +88,11 @@ export function Clustering() {
             <a id="validity" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/clustering-04.svg"} className="img-content mt-50"></object>
 
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="metrics.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="metrics">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="dimensionality-reduction.html">
+                <a className="a-arrow" href="dimensionality-reduction">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -103,22 +103,22 @@ export function Clustering() {
 export function DecisionTree() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="linear-algorithms.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="linear-algorithms">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="ensemble.html">
+                <a className="a-arrow" href="ensemble">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
 
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/decision-tree-01.svg"} className="img-content"></object>
 
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="linear-algorithms.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="linear-algorithms">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="ensemble.html">
+                <a className="a-arrow" href="ensemble">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -129,11 +129,11 @@ export function DecisionTree() {
 export function DimensionReduction() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="clustering.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="clustering">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="tuning.html">
+                <a className="a-arrow" href="tuning">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -153,11 +153,11 @@ export function DimensionReduction() {
             <a id="tsne" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/dim-reduction-05.svg"} className="img-content mt-50"></object>
 
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="clustering.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="clustering">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="tuning.html">
+                <a className="a-arrow" href="tuning">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -168,11 +168,11 @@ export function DimensionReduction() {
 export function DistanceBased() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="ensemble.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="ensemble">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="optimization.html">
+                <a className="a-arrow" href="optimization">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -182,11 +182,11 @@ export function DistanceBased() {
             <a id="knn" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/distance-based-01.svg"} className="img-content mt-50"></object>
 
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="ensemble.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="ensemble">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="optimization.html">
+                <a className="a-arrow" href="optimization">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -197,11 +197,11 @@ export function DistanceBased() {
 export function Ensemble() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="decision-tree.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="decision-tree">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="distance-based.html">
+                <a className="a-arrow" href="distance-based">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -221,11 +221,11 @@ export function Ensemble() {
             <a id="xgboost" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/ensemble-05.svg"} className="img-content mt-50"></object>
 
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="decision-tree.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="decision-tree">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="distance-based.html">
+                <a className="a-arrow" href="distance-based">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -236,11 +236,11 @@ export function Ensemble() {
 export function LinearAlgo() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="bias-variance.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="bias-variance">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="decision-tree.html">
+                <a className="a-arrow" href="decision-tree">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -267,11 +267,11 @@ export function LinearAlgo() {
 export function LossFunction() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="optimization.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="optimization">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="metrics.html">
+                <a className="a-arrow" href="metrics">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -285,11 +285,11 @@ export function LossFunction() {
             <a id="regression" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/loss-functions-03.svg"} className="img-content mt-50"></object>
 
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="optimization.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="optimization">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="metrics.html">
+                <a className="a-arrow" href="metrics">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -300,11 +300,11 @@ export function LossFunction() {
 export function Metrics() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="loss-functions.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="loss-functions">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="clustering.html">
+                <a className="a-arrow" href="clustering">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -314,11 +314,11 @@ export function Metrics() {
             <a id="regression" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/metrics-02.svg"} className="img-content mt-50"></object>
 
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="loss-functions.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="loss-functions">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="clustering.html">
+                <a className="a-arrow" href="clustering">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -329,11 +329,11 @@ export function Metrics() {
 export function MLSamplingReSampling() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="categorization.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="categorization">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="bias-variance.html">
+                <a className="a-arrow" href="bias-variance">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -347,11 +347,11 @@ export function MLSamplingReSampling() {
             <a id="under-oversampling" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/sampling-resampling-03.svg"} className="img-content mt-50"></object>
 
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="categorization.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="categorization">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="bias-variance.html">
+                <a className="a-arrow" href="bias-variance">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -362,11 +362,11 @@ export function MLSamplingReSampling() {
 export function Optimization() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="distance-based.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="distance-based">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="loss-functions.html">
+                <a className="a-arrow" href="loss-functions">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -398,11 +398,11 @@ export function Optimization() {
             <a id="adam" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/optimization-09.svg"} className="img-content mt-50"></object>
 
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="distance-based.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="distance-based">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="loss-functions.html">
+                <a className="a-arrow" href="loss-functions">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
             </div>
@@ -413,8 +413,8 @@ export function Optimization() {
 export function Tuning() {
     return Container(
         <>
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="dimensionality-reduction.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="dimensionality-reduction">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
                 <a className="a-arrow" >
@@ -427,8 +427,8 @@ export function Tuning() {
             <a id="sensitivity" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/tuning-02.svg"} className="img-content mt-50"></object>
 
-            <div className='flex-row spaced'>
-                <a className="a-arrow" href="dimensionality-reduction.html">
+            <div className='flex-row spaced margin-tb-30'>
+                <a className="a-arrow" href="dimensionality-reduction">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
                 <a className="a-arrow" >

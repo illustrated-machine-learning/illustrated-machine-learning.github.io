@@ -17,8 +17,8 @@ export default function Home() {
                         we hope our illustrations will be a <b>valuable resource</b> on your journey to understanding Machine Learning. <br /><br />
                     </p>
                 </div>
-                <div className="text-container" style={{ textAlign: 'center', color: '#1864ab' }}>
-                    <p><i>To see our full list of topics, <b>click on the top-left hamburger-menu!</b></i></p>
+                <div className="text-container" style={{textAlign: 'center', color:'#1864ab'}}>
+                  <p><i>To see our full list of topics, <b>click on the top-left hamburger-menu!</b></i></p>
                 </div>
                 <div className="text-container">
                     <p>If you find this project useful, or if you wish to contribute, reach out to our <a href="https://github.com/illustrated-machine-learning/illustrated-machine-learning.github.io">public repository</a>!</p>
@@ -29,9 +29,7 @@ export default function Home() {
                     <iframe src="https://ghbtns.com/github-btn.html?user=illustrated-machine-learning&repo=illustrated-machine-learning.github.io&type=fork&count=true&size=large" frameBorder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
                 </div>
                 <div className="container-img">
-                    <a href="./../pages/machine-learning/categorization.html">
-                        <object className="meme-banner" type="image/svg+xml" data={process.env.PUBLIC_URL + '/img/meme.svg'}></object>
-                    </a>
+                    <object className="meme-banner" type="image/svg+xml" data={process.env.PUBLIC_URL + '/img/meme.svg'}></object>
                 </div>
             </div>
         </>

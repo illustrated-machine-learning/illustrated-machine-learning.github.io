@@ -59,6 +59,11 @@
     justify-content: space-around !important;
 }
 
+.margin-tb-30 {
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+
 .arrow {
     width: 50px;
     margin: 5% 2.5% 5% 2.5%;

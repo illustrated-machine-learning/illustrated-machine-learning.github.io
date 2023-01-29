@@ -16,6 +16,8 @@ export default function News() {
             <div className="text-container" style={{marginBottom: 10 + '%', lineHeight: 2}}>
 
                 <ul>
+                    <li><b>2023/01/25</b>: Reached 200 starts on GitHub!</li>
+                    <li><b>2023/01/21</b>: Started the "Machine Learning Engineering" section</li>
                     <li><b>2023/01/14</b>: Added until the fourth lecture of Prof. Andreas Geiger’s Computer Vision course (Projective Geometry).</li>
                     <li><b>2023/01/12</b>: Reached 100 stars on GitHub!</li>
                     <li><b>2023/01/07</b>: Added full support to SVGs! The website is now much faster.</li>
