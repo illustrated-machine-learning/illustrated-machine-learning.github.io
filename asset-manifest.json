@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/illustrated-machine-learning.github.io/static/css/main.279f6416.css",
-    "main.js": "/illustrated-machine-learning.github.io/static/js/main.74fe8c00.js",
-    "static/js/787.c027e208.chunk.js": "/illustrated-machine-learning.github.io/static/js/787.c027e208.chunk.js",
-    "index.html": "/illustrated-machine-learning.github.io/index.html",
-    "main.279f6416.css.map": "/illustrated-machine-learning.github.io/static/css/main.279f6416.css.map",
-    "main.74fe8c00.js.map": "/illustrated-machine-learning.github.io/static/js/main.74fe8c00.js.map",
-    "787.c027e208.chunk.js.map": "/illustrated-machine-learning.github.io/static/js/787.c027e208.chunk.js.map"
+    "main.css": "/static/css/main.279f6416.css",
+    "main.js": "/static/js/main.c1bd33c7.js",
+    "static/js/787.c027e208.chunk.js": "/static/js/787.c027e208.chunk.js",
+    "index.html": "/index.html",
+    "main.279f6416.css.map": "/static/css/main.279f6416.css.map",
+    "main.c1bd33c7.js.map": "/static/js/main.c1bd33c7.js.map",
+    "787.c027e208.chunk.js.map": "/static/js/787.c027e208.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.279f6416.css",
-    "static/js/main.74fe8c00.js"
+    "static/js/main.c1bd33c7.js"
   ]
 }
