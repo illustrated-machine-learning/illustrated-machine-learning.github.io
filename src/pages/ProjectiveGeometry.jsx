@@ -1,5 +1,5 @@
 import Container from '../components/Container';
-import { NavLink, Outlet, useOutlet } from "react-router-dom"
+import { NavLink, Outlet, useOutlet, Link } from "react-router-dom"
 
 export function Parent() {
     return Container(
@@ -33,9 +33,9 @@ export function Lecture01() {
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="image-formation">
+                <Link className="a-arrow" to={`/projective-geometry/image-formation`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
-                </a>
+                </Link>
             </div>
 
             <a id="organization" />
@@ -49,9 +49,9 @@ export function Lecture01() {
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="image-formation">
+                <Link className="a-arrow" to={`/projective-geometry/image-formation`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
-                </a>
+                </Link>
             </div>
         </>
     );
@@ -61,12 +61,12 @@ export function Lecture02() {
     return Container(
         <>
             <div className='flex-row spaced margin-tb-30'>
-                <a className="a-arrow" href="introduction">
+                <Link className="a-arrow" to={`/projective-geometry/introduction`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
-                </a>
-                <a className="a-arrow" href="structure-from-motion">
+                </Link>
+                <Link className="a-arrow" to={`/projective-geometry/structure-from-motion`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
-                </a>
+                </Link>
             </div>
 
             <a id="2dprimitive" />
@@ -95,7 +95,7 @@ export function Lecture02() {
 
             <a id="distortion" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l02-geometric-06.svg"} className="img-content mt-50"></object>
-            
+
             <a id="rendering" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l02-formation-01.svg"} className="img-content mt-50"></object>
 
@@ -115,12 +115,12 @@ export function Lecture02() {
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l02-sensing-01.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced margin-tb-30'>
-                <a className="a-arrow" href="introduction">
+                <Link className="a-arrow" to={`/projective-geometry/introduction`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
-                </a>
-                <a className="a-arrow" href="structure-from-motion">
+                </Link>
+                <Link className="a-arrow" to={`/projective-geometry/structure-from-motion`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
-                </a>
+                </Link>
             </div>
         </>
     );
@@ -130,12 +130,12 @@ export function Lecture03() {
     return Container(
         <>
             <div className='flex-row spaced margin-tb-30'>
-                <a className="a-arrow" href="image-formation">
+                <Link className="a-arrow" to={`/projective-geometry/image-formation`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
-                </a>
-                <a className="a-arrow" href="stereo-reconstruction">
+                </Link>
+                <Link className="a-arrow" to={`/projective-geometry/stereo-reconstruction`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
-                </a>
+                </Link>
             </div>
 
             <a id="preliminaries" />
@@ -146,28 +146,28 @@ export function Lecture03() {
 
             <a id="epipolar-geometry-math" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l03-two-frames-sfm-02.svg"} className="img-content mt-50"></object>
-            
+
             <a id="triangularization" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l03-two-frames-sfm-03.svg"} className="img-content mt-50"></object>
 
             <a id="factorization" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l03-factorization-01.svg"} className="img-content mt-50"></object>
-            
+
             <a id="bundle-adjustment" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l03-ba-01.svg"} className="img-content mt-50"></object>
-            
+
             <a id="incremental-sfm" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l03-ba-02.svg"} className="img-content mt-50"></object>
 
 
 
             <div className='flex-row spaced margin-tb-30'>
-                <a className="a-arrow" href="image-formation">
+                <Link className="a-arrow" to={`/projective-geometry/image-formation`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
-                </a>
-                <a className="a-arrow" href="stereo-reconstruction">
+                </Link>
+                <Link className="a-arrow" to={`/projective-geometry/stereo-reconstruction`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
-                </a>
+                </Link>
             </div>
         </>
     );
@@ -177,9 +177,9 @@ export function Lecture04() {
     return Container(
         <>
             <div className='flex-row spaced margin-tb-30'>
-                <a className="a-arrow" href="structure-from-motion">
+                <Link className="a-arrow" to={`/projective-geometry/structure-from-motion`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
-                </a>
+                </Link>
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
@@ -196,7 +196,7 @@ export function Lecture04() {
 
             <a id="disparity" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l04-preliminaries-04.svg"} className="img-content mt-50"></object>
-            
+
             <a id="correspondence-ambiguity" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/projective-geometry/l04-block-matching-01.svg"} className="img-content mt-50"></object>
 
@@ -205,9 +205,9 @@ export function Lecture04() {
 
 
             <div className='flex-row spaced margin-tb-30'>
-            <a className="a-arrow" href="structure-from-motion">
+                <Link className="a-arrow" to={`/projective-geometry/structure-from-motion`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
-                </a>
+                </Link>
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
