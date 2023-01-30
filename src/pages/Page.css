@@ -1,3 +1,23 @@
+.container-img {
+    text-align: center;
+    margin: 5% 0 0 0;
+}
+
+.image-title {
+    width: 80vmin;
+}
+
+.banner {
+    height: 20vh;
+}
+
+
+.text-container {
+    text-align: left;
+    width: 60vw;
+    margin: 0 0 0 0;
+}
+
 .content-container {
     text-align: center;
     display: flex;
@@ -15,10 +35,6 @@
     text-align: left;
 }
 
-.banner {
-    height: 20vh;
-}
-
 .full-screen-svg {
     height: 80vh;
 }
@@ -26,11 +42,6 @@
 .container-github {
     margin-top: 2vmin;
     text-align: center;
-}
-
-.container-img {
-    text-align: center;
-    margin: 5% 0 0 0;
 }
 
 .meme-banner {

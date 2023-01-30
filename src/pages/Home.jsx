@@ -23,14 +23,17 @@ export default function Home() {
                 <div className="text-container">
                     <p>If you find this project useful, or if you wish to contribute, reach out to our <a href="https://github.com/illustrated-machine-learning/illustrated-machine-learning.github.io">public repository</a>!</p>
                 </div>
-                <div className="container-github">
-                    <iframe src="https://ghbtns.com/github-btn.html?user=illustrated-machine-learning&type=follow&count=true&size=large" frameBorder="0" scrolling="0" width="500" height="30" title="GitHub"></iframe>
-                    <iframe src="https://ghbtns.com/github-btn.html?user=illustrated-machine-learning&repo=illustrated-machine-learning.github.io&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
-                    <iframe src="https://ghbtns.com/github-btn.html?user=illustrated-machine-learning&repo=illustrated-machine-learning.github.io&type=fork&count=true&size=large" frameBorder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
-                </div>
-                <div className="container-img">
-                    <object className="meme-banner" type="image/svg+xml" data={process.env.PUBLIC_URL + '/img/meme.svg'}></object>
-                </div>
+                
+            </div>
+            <center>
+            <div className="container-github">
+                <iframe src="https://ghbtns.com/github-btn.html?user=illustrated-machine-learning&type=follow&count=true&size=large" frameBorder="0" scrolling="0" width="500" height="30" title="GitHub"></iframe>
+                <iframe src="https://ghbtns.com/github-btn.html?user=illustrated-machine-learning&repo=illustrated-machine-learning.github.io&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+                <iframe src="https://ghbtns.com/github-btn.html?user=illustrated-machine-learning&repo=illustrated-machine-learning.github.io&type=fork&count=true&size=large" frameBorder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+            </div>
+            </center>
+            <div className="container-img">
+                <object className="meme-banner" type="image/svg+xml" data={process.env.PUBLIC_URL + '/img/meme.svg'}></object>
             </div>
         </>
     );

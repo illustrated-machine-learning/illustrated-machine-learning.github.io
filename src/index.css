@@ -20,9 +20,6 @@ body {
     height: 100%;
 }
 
-#content-root {
-    flex: 1 0 auto;
-}
 
 footer {
     flex-shrink: 0;
@@ -31,12 +28,6 @@ footer {
 .container {
     margin: 5vh 0;
     text-align: center;
-}
-
-.text-container {
-    text-align: left;
-    width: 80vw;
-    margin: 0 0 0 0;
 }
 
 
@@ -70,10 +61,16 @@ footer {
   .menu__item__list {
       font-size: 30px;
   }
-  
+
+  .content-container {
+    max-width: 90% !important;
+    margin: 0 5% !important;
+    text-align: left;
+}
+
   .text-container {
-      font-size: 40px;
-      width: 80vw;
+      font-size: 20px;
+      width: 90vw !important;
   }
 
   /* make people scroll! */
