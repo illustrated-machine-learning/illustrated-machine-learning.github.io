@@ -1,5 +1,5 @@
 import Container from '../components/Container';
-import { NavLink, Outlet, useOutlet } from "react-router-dom"
+import { NavLink, Outlet, useOutlet, Link } from "react-router-dom"
 
 export function Parent() {
     return Container(
@@ -31,9 +31,9 @@ export function Chapter01() {
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="before-the-project-starts">
+                <Link className="a-arrow" to={`/machine-learning-engineering/before-the-project-starts`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
-                </a>
+                </Link>
             </div>
 
             <a id="supervised-learning" />
@@ -88,9 +88,9 @@ export function Chapter01() {
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </a>
-                <a className="a-arrow" href="before-the-project-starts">
+                <Link className="a-arrow" to={`/machine-learning-engineering/before-the-project-starts`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
-                </a>
+                </Link>
             </div>
         </>
     );
@@ -100,9 +100,9 @@ export function Chapter02() {
     return Container(
         <>
             <div className='flex-row spaced margin-tb-30'>
-                <a className="a-arrow" href="introduction">
+                <Link className="a-arrow" to={`/machine-learning-engineering/introduction`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
-                </a>
+                </Link>
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
@@ -123,9 +123,9 @@ export function Chapter02() {
 
 
             <div className='flex-row spaced margin-tb-30'>
-                <a className="a-arrow" href="introduction">
+                <Link className="a-arrow" to={`/machine-learning-engineering/introduction`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
-                </a>
+                </Link>
                 <a className="a-arrow arrow-disabled">
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
                 </a>
