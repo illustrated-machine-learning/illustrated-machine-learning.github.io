@@ -20,12 +20,6 @@ body {
     height: 100%;
 }
 
-.img-content {
-    width: auto;
-    height: auto;
-}
-
-
 footer {
     flex-shrink: 0;
 }
