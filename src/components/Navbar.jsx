@@ -415,45 +415,45 @@ export default function Navbar() {
                                         <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/before-the-project-starts#why-ml-projects-fail`}>Why Machine Learning Projects Fail</HashLink>
                                     </li>
                                 </ol>
+                                <li>
+                                    <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#questions-about-the-data`}>Data Collection and Preparation</HashLink>
+                                </li>
+                                <ol>
                                     <li>
-                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#questions-about-the-data`}>Data Collection and Preparation</HashLink>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#questions-about-the-data`}>Questions about the Data</HashLink>
                                     </li>
-                                    <ol>
-                                        <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#questions-about-the-data`}>Questions about the Data</HashLink>
-                                        </li>
-                                        <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#common-problems-with-data-and-biases`}>Common Problems with Data and Biases</HashLink>
-                                        </li>
-                                        <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#characteristics-of-good-data`}>Characteristics of Good Data</HashLink>
-                                        </li>
-                                        <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#causes-of-data-leakage`}>Causes of Data Leakage</HashLink>
-                                        </li>
-                                        <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#data-partitioning`}>Data Partitioning</HashLink>
-                                        </li>
-                                        <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#dealing-with-missing-attributes`}>Dealing with Missing Attributes</HashLink>
-                                        </li>
-                                        <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#dealing-with-imbalanced-data`}>Dealing with Imbalanced Data</HashLink>
-                                        </li>
-                                        <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#data-sampling-strategies`}>Data Sampling Strategies</HashLink>
-                                        </li>
-                                        <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#data-storing`}>Data Storing</HashLink>
-                                        </li>
-                                        <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#data-versioning`}>Data Versioning</HashLink>
-                                        </li>
-                                        <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#documentation-and-metadata`}>Documentation and Metadata</HashLink>
-                                        </li>
-                                    </ol>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#common-problems-with-data-and-biases`}>Common Problems with Data and Biases</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#characteristics-of-good-data`}>Characteristics of Good Data</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#causes-of-data-leakage`}>Causes of Data Leakage</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#data-partitioning`}>Data Partitioning</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#dealing-with-missing-attributes`}>Dealing with Missing Attributes</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#dealing-with-imbalanced-data`}>Dealing with Imbalanced Data</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#data-sampling-strategies`}>Data Sampling Strategies</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#data-storing`}>Data Storing</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#data-versioning`}>Data Versioning</HashLink>
+                                    </li>
+                                    <li>
+                                        <HashLink className="menu__item menu__item__list" to={`/machine-learning-engineering/data-collection-and-preparation#documentation-and-metadata`}>Documentation and Metadata</HashLink>
+                                    </li>
                                 </ol>
+                            </ol>
                         </div>
                     }
                 </div>
