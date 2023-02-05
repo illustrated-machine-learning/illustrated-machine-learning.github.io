@@ -47,6 +47,7 @@ root.render(
         <Route path="machine-learning-engineering" element={<MLE.Parent />} >
           <Route path='introduction' element={<MLE.Chapter01 />} />
           <Route path='before-the-project-starts' element={<MLE.Chapter02 />} />
+          <Route path='data-collection-and-preparation' element={<MLE.Chapter03 />} />
         </Route>
 
         <Route path="credits" element={<Credits />} />

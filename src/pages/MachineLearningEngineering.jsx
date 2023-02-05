@@ -11,7 +11,8 @@ export function Parent() {
                     <h1>Machine Learning Engineering</h1>
                     <nav>
                         <NavLink to="introduction">Introduction</NavLink>
-                        <NavLink to="before-the-project-starts">Before the project starts</NavLink>
+                        <NavLink to="before-the-project-starts">Before the Project Starts</NavLink>
+                        <NavLink to="data-collection-and-preparation">Data Collection and Preparation</NavLink>
                     </nav>
                     <object type="image/svg+xml"
                         data={process.env.PUBLIC_URL + "/Robotics-bro.svg"}
@@ -103,9 +104,9 @@ export function Chapter02() {
                 <Link className="a-arrow" to={`/machine-learning-engineering/introduction`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
                 </Link>
-                <a className="a-arrow arrow-disabled">
+                <Link className="a-arrow" to={`/machine-learning-engineering/data-collection-and-preparation`}>
                     <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
-                </a>
+                </Link>
             </div>
 
             <a id="prioritization-of-ml-projects-and-team-composition" />
@@ -121,6 +122,63 @@ export function Chapter02() {
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch02-why-ml-projects-fail.svg"} className="img-content mt-50"></object>
 
 
+
+            <div className='flex-row spaced margin-tb-30'>
+                <Link className="a-arrow" to={`/machine-learning-engineering/introduction`}>
+                    <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
+                </Link>
+                <Link className="a-arrow" to={`/machine-learning-engineering/data-collection-and-preparation`}>
+                    <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
+                </Link>
+            </div>
+        </>
+    );
+}
+
+export function Chapter03() {
+    return Container(
+        <>
+            <div className='flex-row spaced margin-tb-30'>
+                <Link className="a-arrow" to={`/machine-learning-engineering/before-the-project-starts`}>
+                    <img src={process.env.PUBLIC_URL + "/img/icons/left.png"} className="arrow" />
+                </Link>
+                <a className="a-arrow arrow-disabled">
+                    <img src={process.env.PUBLIC_URL + "/img/icons/right.png"} className="arrow" />
+                </a>
+            </div>
+
+            <a id="questions-about-the-data" />
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch03-questions-about-the-data.svg"} className="img-content"></object>
+
+            <a id="common-problems-with-data-and-biases" />
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch03-common-problems-with-data-and-biases.svg"} className="img-content mt-50"></object>
+
+            <a id="characteristics-of-good-data" />
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch03-characteristics-of-good-data.svg"} className="img-content mt-50"></object>
+
+            <a id="causes-of-data-leakage" />
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch03-causes-of-data-leakage.svg"} className="img-content mt-50"></object>
+
+            <a id="data-partitioning" />
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch03-data-partitionin.svg"} className="img-content mt-50"></object>
+
+            <a id="dealing-with-missing-attributes" />
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch03-dealing-with-missing-attributes.svg"} className="img-content mt-50"></object>
+
+            <a id="dealing-with-imbalanced-data" />
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch03-dealing-with-imbalanced-data.svg"} className="img-content mt-50"></object>
+
+            <a id="data-sampling-strategies" />
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch03-data-sampling-strategies.svg"} className="img-content mt-50"></object>
+
+            <a id="data-storing" />
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch03-data-storing.svg"} className="img-content mt-50"></object>
+
+            <a id="data-versioning" />
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch03-data-versioning.svg"} className="img-content mt-50"></object>
+
+            <a id="documentation-and-metadata" />
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning-engineering/ch03-documentation-and-metadata.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced margin-tb-30'>
                 <Link className="a-arrow" to={`/machine-learning-engineering/introduction`}>
