@@ -14,6 +14,7 @@ import reportWebVitals from './reportWebVitals';
 import * as ML from './pages/MachineLearning';
 import * as MLE from './pages/MachineLearningEngineering';
 import * as PJ from './pages/ProjectiveGeometry';
+import * as DLTP from './pages/DeepLearningTuningPlaybook'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -48,6 +49,9 @@ root.render(
           <Route path='introduction' element={<MLE.Chapter01 />} />
           <Route path='before-the-project-starts' element={<MLE.Chapter02 />} />
           <Route path='data-collection-and-preparation' element={<MLE.Chapter03 />} />
+        </Route>
+        <Route path="deep-learning-tuning-playbook" element={<DLTP.Parent />} >
+          <Route path='fullpage' element={<DLTP.Playground />} />
         </Route>
 
         <Route path="credits" element={<Credits />} />

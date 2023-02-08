@@ -16,6 +16,7 @@ export default function Navbar() {
     const [mlCollapsed, setMlCollapsed] = useState(true)
     const [pgCollapsed, setPgCollapsed] = useState(true)
     const [mleCollapsed, setmleCollapsed] = useState(true)
+    const [dltpCollapsed, setdltpCollapsed] = useState(true)
 
     const toggleML = () => {
 
@@ -54,6 +55,19 @@ export default function Navbar() {
         }
 
         setPgCollapsed(!pgCollapsed)
+    };
+
+    const toggleDLTP = () => {
+
+        if (pgCollapsed && !mlCollapsed) {
+            setMlCollapsed(true)
+        }
+
+        if (pgCollapsed && !mleCollapsed) {
+            setmleCollapsed(true);
+        }
+
+        setdltpCollapsed(!dltpCollapsed)
     };
 
     return (
@@ -614,6 +628,23 @@ export default function Navbar() {
                         </div>
                     }
                 </div>
+
+                <div>
+                    <button className="menu__item collapsible" onClick={toggleDLTP}>Deep Learning Tuning Playbook {dltpCollapsed ? "▼" : "►"}</button>
+                    {dltpCollapsed === false &&
+                        <div className='content' style={{ display: 'block' }}>
+                            <ol>
+                                <li>
+                                    <Link className="menu__item menu__item__list" to={`/deep-learning-tuning-playbook/fullpage#new-project`}>Guide for starting a new project</Link>
+                                </li>
+                                <li>
+                                    <Link className="menu__item menu__item__list" to={`/deep-learning-tuning-playbook/fullpage#improving-performance`}>A scientific approach to improving model performance</Link>
+                                </li>
+                            </ol>
+                        </div>
+                    }
+                </div>
+
                 <li>
                     <Link className="menu__item" to={`/credits`}>Credits</Link>
                 </li>
