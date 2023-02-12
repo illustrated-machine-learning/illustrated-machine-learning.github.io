@@ -177,10 +177,11 @@ export function DistanceBased() {
                 </Link>
             </div>
 
+            <a id="distance" />
             <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/distance-based-01.svg"} className="img-content"></object>
 
             <a id="knn" />
-            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/distance-based-01.svg"} className="img-content mt-50"></object>
+            <object type="image/svg+xml" data={process.env.PUBLIC_URL + "/img/machine-learning/distance-based-02.svg"} className="img-content mt-50"></object>
 
             <div className='flex-row spaced margin-tb-30'>
                 <Link className="a-arrow" to={`/machine-learning/ensemble`}>
