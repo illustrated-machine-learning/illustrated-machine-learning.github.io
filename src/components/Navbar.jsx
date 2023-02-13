@@ -229,7 +229,7 @@ export default function Navbar() {
                                     </li>
                                     <ol>
                                         <li>
-                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning/loss-functions#classification`}>Cross Entopy</HashLink>
+                                            <HashLink className="menu__item menu__item__list" to={`/machine-learning/loss-functions#classification`}>Cross Entropy</HashLink>
                                         </li>
                                         <li>
                                             <HashLink className="menu__item menu__item__list" to={`/machine-learning/loss-functions#classification`}>Hinge Loss</HashLink>
