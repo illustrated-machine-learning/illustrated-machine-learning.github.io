@@ -16,6 +16,7 @@ export default function News() {
             <div className="text-container" style={{marginBottom: 10 + '%', lineHeight: 2}}>
 
                 <ul>
+                    <li><b>2023/02/08</b>: Added the "Deep Learning Tuning Playbook" from Google's researchers</li>
                     <li><b>2023/01/25</b>: Reached 200 stars on GitHub!</li>
                     <li><b>2023/01/21</b>: Started the "Machine Learning Engineering" section</li>
                     <li><b>2023/01/14</b>: Added until the fourth lecture of Prof. Andreas Geiger’s Computer Vision course (Projective Geometry).</li>
