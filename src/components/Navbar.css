@@ -63,6 +63,7 @@
     padding: 12px 24px;
     color: #333;
     text-decoration: none;
+    text-transform: capitalize;
     transition-duration: .25s;
 }
 
