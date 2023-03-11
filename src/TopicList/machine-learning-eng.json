@@ -1,5 +1,232 @@
 {
-    "MLdata":[
-        
+    "data": [
+        {
+            "title": "Introduction",
+            "link": "/machine-learning-engineering/introduction",
+            "sublist": [
+                {
+                    "title": "Types of Learning",
+                    "link": "/machine-learning-engineering/introduction",
+                    "sublist": [
+                        {
+                            "title": "Supervised Learning",
+                            "hashlink": "/machine-learning-engineering/introduction#supervised-learning",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Unsupervised Learning",
+                            "hashlink": "/machine-learning-engineering/introduction#unsupervised-learning",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Semi-supervised Learning",
+                            "hashlink": "/machine-learning-engineering/introduction#semi-supervised-learning",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Reinforcement Learning",
+                            "hashlink": "/machine-learning-engineering/introduction#reinforcement-learning",
+                            "sublist": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Data and ML Terminology",
+                    "hashlink": "/machine-learning-engineering/introduction#data-used-directly-and-indirectly",
+                    "sublist": [
+                        {
+                            "title": "Data Used Directly and Indirectly",
+                            "hashlink": "/machine-learning-engineering/introduction#data-used-directly-and-indirectly",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Raw and Tidy Data",
+                            "hashlink": "/machine-learning-engineering/introduction#raw-and-tidy-data",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Training and Holdout Sets",
+                            "hashlink": "/machine-learning-engineering/introduction#training-and-holdout-sets",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Baseline",
+                            "hashlink": "/machine-learning-engineering/introduction#baseline",
+                            "sublist": []
+                        },
+                        {
+                            "title": "ML Pipeline",
+                            "hashlink": "/machine-learning-engineering/introduction#machine-learning-pipeline",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Parameter vs Hyperparameters",
+                            "hashlink": "/machine-learning-engineering/introduction#parameters-vs-hyperparameters",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Classification vs Regression",
+                            "hashlink": "/machine-learning-engineering/introduction#classification-vs-regression",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Model-based vs Instance-based",
+                            "hashlink": "/machine-learning-engineering/introduction#model-based-vs-instance-based",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Shallow vs Deep Learning",
+                            "hashlink": "/machine-learning-engineering/introduction#shallow-vs-deep-learning",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Training vs Scoring",
+                            "hashlink": "/machine-learning-engineering/introduction#training-vs-scoring",
+                            "sublist": []
+                        },
+                        {
+                            "title": "When to use and not to use ML",
+                            "hashlink": "/machine-learning-engineering/introduction#when-to-use-and-not-to-use-ml",
+                            "sublist": []
+                        },
+                        {
+                            "title": "What is MLE",
+                            "hashlink": "/machine-learning-engineering/introduction#what-is-mle",
+                            "sublist": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Before the Project Starts",
+            "hashlink": "/machine-learning-engineering/before-the-project-starts#prioritization-of-ml-projects-and-team-composition",
+            "sublist": [
+                {
+                    "title": "Prioritization of Machine Learning Projects and Team Composition",
+                    "hashlink": "/machine-learning-engineering/before-the-project-starts#prioritization-of-ml-projects-and-team-composition",
+                    "sublist": [
+                        {
+                            "title": "Impact of Machine Learning",
+                            "hashlink": "/machine-learning-engineering/before-the-project-starts#prioritization-of-ml-projects-and-team-composition",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Cost of Machine Learning",
+                            "hashlink": "/machine-learning-engineering/before-the-project-starts#prioritization-of-ml-projects-and-team-composition",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Team Composition",
+                            "hashlink": "/machine-learning-engineering/before-the-project-starts#prioritization-of-ml-projects-and-team-composition",
+                            "sublist": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Estimating Complexity of a ML Project",
+                    "hashlink": "/machine-learning-engineering/before-the-project-starts#estimating-complexity-of-a-ml-project",
+                    "sublist": [
+                        {
+                            "title": "The Unknowns",
+                            "hashlink": "/machine-learning-engineering/before-the-project-starts#estimating-complexity-of-a-ml-project",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Simplifying the Problem",
+                            "hashlink": "/machine-learning-engineering/before-the-project-starts#estimating-complexity-of-a-ml-project",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Nonlinear Progress",
+                            "hashlink": "/machine-learning-engineering/before-the-project-starts#estimating-complexity-of-a-ml-project",
+                            "sublist": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Defining the Goal of a ML Project",
+                    "hashlink": "/machine-learning-engineering/before-the-project-starts#defining-the-goal-of-a-ml-project",
+                    "sublist": [
+                        {
+                            "title": "What a Model can do",
+                            "hashlink": "/machine-learning-engineering/before-the-project-starts#defining-the-goal-of-a-ml-project",
+                            "sublist": []
+                        },
+                        {
+                            "title": "Properties of a Successful Model",
+                            "hashlink": "/machine-learning-engineering/before-the-project-starts#defining-the-goal-of-a-ml-project",
+                            "sublist": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Why Machine Learning Projects Fail",
+                    "hashlink": "/machine-learning-engineering/before-the-project-starts#why-ml-projects-fail",
+                    "sublist": []
+                }
+            ]
+        },
+        {
+            "title": "Data Collection and Preparation",
+            "hashlink": "/machine-learning-engineering/data-collection-and-preparation#questions-about-the-data",
+            "sublist": [
+                {
+                    "title": "Questions about the Data",
+                    "hashlink": "/machine-learning-engineering/data-collection-and-preparation#questions-about-the-data",
+                    "sublist": []
+                },
+                {
+                    "title": "Common Problems with Data and Biases",
+                    "hashlink": "/machine-learning-engineering/data-collection-and-preparation#common-problems-with-data-and-biases",
+                    "sublist": []
+                },
+                {
+                    "title": "Characteristics of Good Data",
+                    "hashlink": "/machine-learning-engineering/data-collection-and-preparation#characteristics-of-good-data",
+                    "sublist": []
+                },
+                {
+                    "title": "Causes of Data Leakage",
+                    "hashlink": "/machine-learning-engineering/data-collection-and-preparation#causes-of-data-leakage",
+                    "sublist": []
+                },
+                {
+                    "title": "Data Partitioning",
+                    "hashlink": "/machine-learning-engineering/data-collection-and-preparation#data-partitioning",
+                    "sublist": []
+                },
+                {
+                    "title": "Dealing with Missing Attributes",
+                    "hashlink": "/machine-learning-engineering/data-collection-and-preparation#dealing-with-missing-attributes",
+                    "sublist": []
+                },
+                {
+                    "title": "Dealing with Imbalanced Data",
+                    "hashlink": "/machine-learning-engineering/data-collection-and-preparation#dealing-with-imbalanced-data",
+                    "sublist": []
+                },
+                {
+                    "title": "Data Sampling Strategies",
+                    "hashlink": "/machine-learning-engineering/data-collection-and-preparation#data-sampling-strategies",
+                    "sublist": []
+                },
+                {
+                    "title": "Data Storing",
+                    "hashlink": "/machine-learning-engineering/data-collection-and-preparation#data-storing",
+                    "sublist": []
+                },
+                {
+                    "title": "Data Versioning",
+                    "hashlink": "/machine-learning-engineering/data-collection-and-preparation#data-versioning",
+                    "sublist": []
+                },
+                {
+                    "title": "Documentation and Metadata",
+                    "hashlink": "/machine-learning-engineering/data-collection-and-preparation#documentation-and-metadata",
+                    "sublist": []
+                }
+            ]
+        }
     ]
 }
